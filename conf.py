@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Maxwell Mkondiwa"  # (translatable)
-BLOG_TITLE = "maxwellmkondiwa"  # (translatable)
+BLOG_TITLE = "Maxwell Mkondiwa"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://maxwellmkondiwa.com/"
