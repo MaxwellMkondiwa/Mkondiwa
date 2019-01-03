@@ -1,0 +1,4 @@
+Sitemap: https://maxwellmkondiwa.com/sitemapindex.xml
+
+User-Agent: *
+Host: maxwellmkondiwa.com
