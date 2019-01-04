@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://maxwellmkondiwa.com/</loc>
-  <lastmod>2019-01-03T16:08:00Z</lastmod>
+  <lastmod>2019-01-04T07:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://maxwellmkondiwa.com/archive.html</loc>
-  <lastmod>2019-01-04T07:05:00Z</lastmod>
+  <lastmod>2019-01-04T07:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://maxwellmkondiwa.com/categories/</loc>
@@ -24,6 +24,10 @@
  <url>
   <loc>https://maxwellmkondiwa.com/listings/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.com/pages/about-me/</loc>
+  <lastmod>2019-01-04T07:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://maxwellmkondiwa.com/pages/cv/</loc>
