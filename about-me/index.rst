@@ -1,8 +1,8 @@
 .. title: About me
 .. slug: about-me
 .. date: 2019-01-04 09:16:38 UTC+02:00
-.. tags: 
-.. category: 
+.. tags: About me
+.. category: About me
 .. link: 
 .. description: 
 .. type: text
