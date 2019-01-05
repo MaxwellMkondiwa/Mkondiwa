@@ -7,19 +7,35 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://maxwellmkondiwa.com/</loc>
-  <lastmod>2019-01-04T07:29:00Z</lastmod>
+  <lastmod>2019-01-05T04:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.com/2019/</loc>
+  <lastmod>2019-01-05T04:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.com/about-me/</loc>
+  <lastmod>2019-01-05T04:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://maxwellmkondiwa.com/archive.html</loc>
-  <lastmod>2019-01-04T07:57:00Z</lastmod>
+  <lastmod>2019-01-05T05:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://maxwellmkondiwa.com/categories/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
  </url>
  <url>
+  <loc>https://maxwellmkondiwa.com/cv/</loc>
+  <lastmod>2019-01-05T04:27:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://maxwellmkondiwa.com/galleries/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.com/home/</loc>
+  <lastmod>2019-01-05T04:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://maxwellmkondiwa.com/listings/</loc>
@@ -36,5 +52,17 @@
  <url>
   <loc>https://maxwellmkondiwa.com/pages/research/</loc>
   <lastmod>2019-01-03T16:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.com/posts/about-me/</loc>
+  <lastmod>2019-01-05T04:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.com/posts/home/</loc>
+  <lastmod>2019-01-05T04:33:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.com/research/</loc>
+  <lastmod>2019-01-05T04:27:00Z</lastmod>
  </url>
 </urlset>
