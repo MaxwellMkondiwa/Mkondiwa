@@ -6,63 +6,47 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://maxwellmkondiwa.com/</loc>
-  <lastmod>2019-01-05T04:36:00Z</lastmod>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/</loc>
+  <lastmod>2019-01-06T05:58:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/2019/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/2019/</loc>
   <lastmod>2019-01-05T04:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/about-me/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/about-me/</loc>
   <lastmod>2019-01-05T04:27:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/archive.html</loc>
-  <lastmod>2019-01-05T05:18:00Z</lastmod>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/archive.html</loc>
+  <lastmod>2019-01-07T21:02:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/categories/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/categories/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/cv/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/cv/</loc>
   <lastmod>2019-01-05T04:27:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/galleries/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/galleries/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/home/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/home/</loc>
   <lastmod>2019-01-05T04:36:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/listings/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/listings/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.com/pages/about-me/</loc>
-  <lastmod>2019-01-04T07:24:00Z</lastmod>
- </url>
- <url>
-  <loc>https://maxwellmkondiwa.com/pages/cv/</loc>
-  <lastmod>2019-01-03T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://maxwellmkondiwa.com/pages/research/</loc>
-  <lastmod>2019-01-03T16:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://maxwellmkondiwa.com/posts/about-me/</loc>
-  <lastmod>2019-01-05T04:20:00Z</lastmod>
- </url>
- <url>
-  <loc>https://maxwellmkondiwa.com/posts/home/</loc>
-  <lastmod>2019-01-05T04:33:00Z</lastmod>
- </url>
- <url>
-  <loc>https://maxwellmkondiwa.com/research/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/research/</loc>
   <lastmod>2019-01-05T04:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/teaching/</loc>
+  <lastmod>2019-01-06T05:58:00Z</lastmod>
  </url>
 </urlset>

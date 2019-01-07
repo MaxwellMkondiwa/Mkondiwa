@@ -20,7 +20,7 @@ BLOG_AUTHOR = "Maxwell Mkondiwa"  # (translatable)
 BLOG_TITLE = "Maxwell Mkondiwa"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://maxwellmkondiwa.com/"
+SITE_URL = "https://maxwellmkondiwa.github.io/Mkondiwa/home/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://maxwellmkondiwa.com/"
@@ -136,10 +136,10 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/About me.html", "About me"),
-        ("/CV.html", "CV"),
-        ("/Research.html", "Research"),
-        ("/Teaching.html", "Teaching"),          
+        ("/About-me/index.html", "About me"),
+        ("/Research/index.html", "Research"),
+        ("/CV/index.html", "CV"),
+        ("/Teaching/index.html", "Teaching"),          
   #      ("/archive.html", "Archive"),
   #     ("/categories/", "Tags"),
    #     ("/rss.xml", "RSS feed"),
@@ -535,7 +535,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-# INDEX_PATH = ""
+#INDEX_PATH = "Research"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -804,8 +804,8 @@ GITHUB_COMMIT_SOURCE = True
 # but a different naming template can be configured with IMAGE_THUMBNAIL_FORMAT).
 
 IMAGE_FOLDERS = {'images': 'images'}
-# IMAGE_THUMBNAIL_SIZE = 400
-# IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
+IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
