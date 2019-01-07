@@ -20,7 +20,7 @@ BLOG_AUTHOR = "Maxwell Mkondiwa"  # (translatable)
 BLOG_TITLE = "Maxwell Mkondiwa"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://maxwellmkondiwa.github.io/Mkondiwa/home/"
+SITE_URL = "https://maxwellmkondiwa.github.io/Mkondiwa/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://maxwellmkondiwa.com/"
@@ -218,16 +218,16 @@ THEME_CONFIG = {
 #     )
 
 POSTS = (
-    ("posts/*.rst", "", "post.tmpl"),
-    ("posts/*.md", "", "post.tmpl"),
-    ("posts/*.txt", "", "post.tmpl"),
-    ("posts/*.html", "", "post.tmpl"),
+    ("posts/*.rst", "posts", "post.tmpl"),
+    ("posts/*.md", "posts", "post.tmpl"),
+    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "", "page.tmpl"),
-    ("pages/*.md", "", "page.tmpl"),
-    ("pages/*.txt", "", "page.tmpl"),
-    ("pages/*.html", "", "page.tmpl"),
+    ("pages/*.rst", "pages", "page.tmpl"),
+    ("pages/*.md", "pages", "page.tmpl"),
+    ("pages/*.txt", "pages", "page.tmpl"),
+    ("pages/*.html", "pages", "page.tmpl"),
 )
 
 

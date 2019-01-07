@@ -1,5 +1,5 @@
 .. title: Teaching
-.. slug: teaching
+.. slug: Teaching
 .. date: 2019-01-06 07:55:42 UTC+02:00
 .. tags: 
 .. category: 
