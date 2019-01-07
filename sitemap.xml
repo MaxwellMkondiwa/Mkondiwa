@@ -6,47 +6,67 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/</loc>
   <lastmod>2019-01-06T05:58:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/2019/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/2019/</loc>
   <lastmod>2019-01-05T04:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/about-me/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/about-me/</loc>
   <lastmod>2019-01-05T04:27:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/archive.html</loc>
-  <lastmod>2019-01-07T21:07:00Z</lastmod>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/archive.html</loc>
+  <lastmod>2019-01-07T21:27:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/categories/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/categories/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/cv/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/cv/</loc>
   <lastmod>2019-01-05T04:27:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/galleries/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/galleries/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/home/</loc>
-  <lastmod>2019-01-07T21:06:00Z</lastmod>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/</loc>
+  <lastmod>2019-01-07T21:09:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/listings/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/listings/</loc>
   <lastmod>2019-01-03T15:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/research/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/pages/about-me/</loc>
+  <lastmod>2019-01-07T21:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/pages/cv/</loc>
+  <lastmod>2019-01-07T21:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/pages/research/</loc>
+  <lastmod>2019-01-07T21:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/pages/teaching/</loc>
+  <lastmod>2019-01-07T21:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/posts/home/</loc>
+  <lastmod>2019-01-07T21:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/research/</loc>
   <lastmod>2019-01-05T04:27:00Z</lastmod>
  </url>
  <url>
-  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/home/teaching/</loc>
+  <loc>https://maxwellmkondiwa.github.io/Mkondiwa/teaching/</loc>
   <lastmod>2019-01-06T05:58:00Z</lastmod>
  </url>
 </urlset>
