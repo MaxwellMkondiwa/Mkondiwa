@@ -1,4 +1,4 @@
-Sitemap: https://maxwellmkondiwa.com/sitemapindex.xml
+Sitemap: https://maxwellmkondiwa.github.io/Mkondiwa/home/sitemapindex.xml
 
 User-Agent: *
-Host: maxwellmkondiwa.com
+Host: maxwellmkondiwa.github.io
