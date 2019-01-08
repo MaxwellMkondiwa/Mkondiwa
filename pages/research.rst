@@ -128,6 +128,8 @@ two period nationally representative panel survey data in Malawi and rely on the
 spatial variation in access to schooling to identify effects of schooling on agricultural incomes. In addition, 
 I use recent econometric methods to correct for selection into income activities within a panel data and instrumental variables estimation framework. I find annual agricultural returns to one additional year of schooling in Malawi that range from 3% to 7%. 
 
+5) Games of strategy in culture and economics research. Draft version available upon request.
+
 
 Works in Progress
 =================
@@ -136,7 +138,19 @@ Works in Progress
 
 2) A Cautionary Political Economy Tale of Large Farm Registration in Malawi.
 
-3) Assessing the Inverse-Farm Size Productivity in Malawi. Presentation slides at the 2018 Annual 
+3) Assessing the Inverse-Farm Size Productivity in Malawi. (with Fang Xia, Klaus Deininger, Daniel Ali and Henry Kankwamba). Presentation slides at the 2018 Annual 
 World Bank Conference on Land and Poverty available
 `here
-<https://www.conftool.com/landandpoverty2018/index.php?page=browseSessions&print=head&doprint=yes&form_session=448&presentations=show>`_. 
+<https://www.conftool.com/landandpoverty2018/index.php?page=browseSessions&print=head&doprint=yes&form_session=448&presentations=show>`_.
+
+4) Towards a theory of spatial organization of agriculture and land rights (with Ali Joglekar)
+
+5) Incidence and productivity effects of abusus land rights: Evidence from Malawi
+
+6) Strategic games in culture and origins of entrepreneurship in Africa. Pre-analysis plan available upon request.  
+ 
+7) Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
+
+8) What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
+Frikkie Liebenberg, Ian Luby, Senait Senay, Carlo Azzarri and Terry Hurley).
+

@@ -8,7 +8,10 @@
 .. type: text
 
 I am a PhD candidate in Applied Economics at the University of Minnesota. 
-My main areas of research interest are production and marketing economics. 
+My main areas of research interest are production and marketing economics. Beyond these
+day job research areas, I have broad research interests including in what people call development 
+economics, environmental economics, behavioural economics, GIS and spatial econometrics, Bayesian
+econometrics, cultural economics, agronomy and philosophy. 
 
 I love playing soccer (alot!), watching soccer (alot as well) and reading philosophical novels 
 (my favourite novelists are Tolstoy, George Elliot, Toni Morrisoni and Paulo Coelho).
