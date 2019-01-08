@@ -134,23 +134,23 @@ I use recent econometric methods to correct for selection into income activities
 Works in Progress
 =================
 
-(1) A Meta Review of the “Conventional” Crop Varietal Use Evidence for Africa (with Phil Pardey). Presented at the SPIA-Gates Foundation Meeting, Washington
+1. Meta Review of the “Conventional” Crop Varietal Use Evidence for Africa (with Phil Pardey). Presented at the SPIA-Gates Foundation Meeting, Washington
 
-(2) A Cautionary Political Economy Tale of Large Farm Registration in Malawi.
+2. A Cautionary Political Economy Tale of Large Farm Registration in Malawi.
 
-(3) Assessing the Inverse-Farm Size Productivity in Malawi. (with Fang Xia, Klaus Deininger, Daniel Ali and Henry Kankwamba). Presentation slides at the 2018 Annual 
+3. Assessing the Inverse-Farm Size Productivity in Malawi. (with Fang Xia, Klaus Deininger, Daniel Ali and Henry Kankwamba). Presentation slides at the 2018 Annual 
 World Bank Conference on Land and Poverty available
 `here
 <https://www.conftool.com/landandpoverty2018/index.php?page=browseSessions&print=head&doprint=yes&form_session=448&presentations=show>`_.
 
-(4) Towards a theory of spatial organization of agriculture and land rights (with Ali Joglekar)
+4. Towards a theory of spatial organization of agriculture and land rights (with Ali Joglekar)
 
-(5) Incidence and productivity effects of abusus land rights: Evidence from Malawi
+5. Incidence and productivity effects of abusus land rights: Evidence from Malawi
 
-(6) Strategic games in culture and origins of entrepreneurship in Africa. Pre-analysis plan available upon request.  
+6. Strategic games in culture and origins of entrepreneurship in Africa. Pre-analysis plan available upon request.  
  
-(7) Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
+7. Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
 
-(8) What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
+8. What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
 Frikkie Liebenberg, Ian Luby, Senait Senay, Carlo Azzarri and Terry Hurley).
 
