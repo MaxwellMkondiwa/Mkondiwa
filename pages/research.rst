@@ -68,7 +68,7 @@ outcomes for farmers, the investor and the environment.
 Working Papers
 ==============
 
-1) Whither broad or spatially specific fertilizer recommendations? (with Terry Hurley). Revise and Resubmit.
+1. Whither broad or spatially specific fertilizer recommendations? (with Terry Hurley). Revise and Resubmit.
 
 Are spatially specific agricultural input use recommendations more profitable to smallholder 
 farmers than broad recommendations?  Yes! This paper proposes a theoretical and empirical 
@@ -83,7 +83,7 @@ including, (i) input supplier (fertilizer and seeds) provision of recommendation
 directed towards heterogeneous environments and (iii) accounting of costs of agricultural research at 
 different scales when making input recommendations.
 
-2) Closing the gap in experimental-observational crop responses: A Bayesian approach
+2. Closing the gap in experimental-observational crop responses: A Bayesian approach
 
 Crop response estimates to various farm inputs especially inorganic fertilizers are key ingredients 
 in policy and welfare analyses. The continuing divergence between experimental and observational crop 
@@ -97,7 +97,7 @@ The plausible assumption that makes this approach optimal is that the experiment
 while observational methods overestimate failures. In general, the findings of this paper using nationally representative datasets 
 from Malawi show that ignoring the parameter uncertainty and heterogeneity in crop responses inevitably results in wrong policy prescriptions.
 
-3) Estimating inter-district food flows in Malawi: Application of a Malawi Agricultural Sector Model 
+3. Estimating inter-district food flows in Malawi: Application of a Malawi Agricultural Sector Model 
 
 This article develops a food sector spatially explicit mathematical programming model for Malawi 
 to estimate inter-district food flows and how transport cost variations affect these flows. 
@@ -114,7 +114,7 @@ and 0% for cassava and potatoes. A simulation experiment of varying unit transpo
 shows that reduction in per unit transport costs nonlinearly increases the share of production that is traded though 
 differentially across crops.
 
-4) `Is wealth found in the soil or brain? Investing in farm people in Malawi
+4. `Is wealth found in the soil or brain? Investing in farm people in Malawi
 <https://ageconsearch.umn.edu/record/275914/files/2483.pdf>`_. Presented at the 30th Triannual International Conference for 
 Agricultural Economists (ICAE 2018) in Vancouver, Canada, 28th-31st July 2018. 
 
@@ -128,29 +128,29 @@ two period nationally representative panel survey data in Malawi and rely on the
 spatial variation in access to schooling to identify effects of schooling on agricultural incomes. In addition, 
 I use recent econometric methods to correct for selection into income activities within a panel data and instrumental variables estimation framework. I find annual agricultural returns to one additional year of schooling in Malawi that range from 3% to 7%. 
 
-5) Games of strategy in culture and economics research. Draft version available upon request.
+5. Games of strategy in culture and economics research. Draft version available upon request.
 
 
 Works in Progress
 =================
 
-1) A Meta Review of the “Conventional” Crop Varietal Use Evidence for Africa (with Phil Pardey). Presented at the SPIA-Gates Foundation Meeting, Washington
+(1) A Meta Review of the “Conventional” Crop Varietal Use Evidence for Africa (with Phil Pardey). Presented at the SPIA-Gates Foundation Meeting, Washington
 
-2) A Cautionary Political Economy Tale of Large Farm Registration in Malawi.
+(2) A Cautionary Political Economy Tale of Large Farm Registration in Malawi.
 
-3) Assessing the Inverse-Farm Size Productivity in Malawi. (with Fang Xia, Klaus Deininger, Daniel Ali and Henry Kankwamba). Presentation slides at the 2018 Annual 
+(3) Assessing the Inverse-Farm Size Productivity in Malawi. (with Fang Xia, Klaus Deininger, Daniel Ali and Henry Kankwamba). Presentation slides at the 2018 Annual 
 World Bank Conference on Land and Poverty available
 `here
 <https://www.conftool.com/landandpoverty2018/index.php?page=browseSessions&print=head&doprint=yes&form_session=448&presentations=show>`_.
 
-4) Towards a theory of spatial organization of agriculture and land rights (with Ali Joglekar)
+(4) Towards a theory of spatial organization of agriculture and land rights (with Ali Joglekar)
 
-5) Incidence and productivity effects of abusus land rights: Evidence from Malawi
+(5) Incidence and productivity effects of abusus land rights: Evidence from Malawi
 
-6) Strategic games in culture and origins of entrepreneurship in Africa. Pre-analysis plan available upon request.  
+(6) Strategic games in culture and origins of entrepreneurship in Africa. Pre-analysis plan available upon request.  
  
-7) Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
+(7) Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
 
-8) What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
+(8) What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
 Frikkie Liebenberg, Ian Luby, Senait Senay, Carlo Azzarri and Terry Hurley).
 
