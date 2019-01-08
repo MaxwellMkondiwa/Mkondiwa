@@ -136,10 +136,10 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/About-me/index.html", "About me"),
-        ("/Research/index.html", "Research"),
-        ("/CV/index.html", "CV"),
-        ("/Teaching/index.html", "Teaching"),          
+        ("/about-me/index.html", "About me"),
+        ("/research/index.html", "Research"),
+        ("/cv/index.html", "CV"),
+        ("/teaching/index.html", "Teaching"),          
   #      ("/archive.html", "Archive"),
   #     ("/categories/", "Tags"),
    #     ("/rss.xml", "RSS feed"),
@@ -852,7 +852,7 @@ IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
 # Note that in case INDEXES_PAGES_MAIN is set to True, a redirection will be created
 # for the full URL with the page number of the main page to the normal (shorter) main
 # page URL.
-INDEXES_PRETTY_PAGE_URL = False
+#INDEXES_PRETTY_PAGE_URL = False
 #
 # If the following is true, a page range navigation will be inserted to indices.
 # Please note that this will undo the effect of INDEXES_STATIC, as all index pages
