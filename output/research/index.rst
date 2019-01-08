@@ -65,7 +65,7 @@ communities. Where biofuels are viable, PPPs should be part of the biofuels poli
 strategy in order to build trust, collective responsibility and joint risk management to achieve shared 
 outcomes for farmers, the investor and the environment.
 
-Working Papers
+Working papers
 ==============
 
 1. Whither broad or spatially specific fertilizer recommendations? (with Terry Hurley). Revise and Resubmit.
@@ -135,7 +135,7 @@ I use recent econometric methods to correct for selection into income activities
 5. Games of strategy in culture and economics research. Draft version available upon request.
 
 
-Works in Progress
+Work in progress
 =================
 
 1. Meta Review of the “Conventional” Crop Varietal Use Evidence for Africa (with Phil Pardey). Presented at the SPIA-Gates Foundation Meeting, Washington
