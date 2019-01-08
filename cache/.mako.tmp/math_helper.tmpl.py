@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1546931384.8003483
+_modified_time = 1546931430.79781
 _enable_loop = True
 _template_filename = 'c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/math_helper.tmpl'
 _template_uri = 'math_helper.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['math_styles_ifpost', 'math_scripts_ifpost', 'math_scripts_ifposts', 'math_styles', 'math_scripts', 'math_styles_ifposts']
+_exports = ['math_styles_ifposts', 'math_scripts_ifposts', 'math_scripts_ifpost', 'math_scripts', 'math_styles', 'math_styles_ifpost']
 
 
 def render_body(context,**pageargs):
@@ -29,16 +29,34 @@ def render_body(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
-def render_math_styles_ifpost(context,post):
+def render_math_styles_ifposts(context,posts):
     __M_caller = context.caller_stack._push_frame()
     try:
+        any = context.get('any', UNDEFINED)
         def math_styles():
             return render_math_styles(context)
         __M_writer = context.writer()
         __M_writer('\n')
-        if post.has_math:
+        if any(post.has_math for post in posts):
             __M_writer('        ')
             __M_writer(str(math_styles()))
+            __M_writer('\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_math_scripts_ifposts(context,posts):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        any = context.get('any', UNDEFINED)
+        def math_scripts():
+            return render_math_scripts(context)
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if any(post.has_math for post in posts):
+            __M_writer('        ')
+            __M_writer(str(math_scripts()))
             __M_writer('\n')
         return ''
     finally:
@@ -61,41 +79,11 @@ def render_math_scripts_ifpost(context,post):
         context.caller_stack._pop_frame()
 
 
-def render_math_scripts_ifposts(context,posts):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        def math_scripts():
-            return render_math_scripts(context)
-        any = context.get('any', UNDEFINED)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if any(post.has_math for post in posts):
-            __M_writer('        ')
-            __M_writer(str(math_scripts()))
-            __M_writer('\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
-def render_math_styles(context):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        use_katex = context.get('use_katex', UNDEFINED)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if use_katex:
-            __M_writer('        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 def render_math_scripts(context):
     __M_caller = context.caller_stack._push_frame()
     try:
-        mathjax_config = context.get('mathjax_config', UNDEFINED)
         katex_auto_render = context.get('katex_auto_render', UNDEFINED)
+        mathjax_config = context.get('mathjax_config', UNDEFINED)
         use_katex = context.get('use_katex', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
@@ -120,15 +108,27 @@ def render_math_scripts(context):
         context.caller_stack._pop_frame()
 
 
-def render_math_styles_ifposts(context,posts):
+def render_math_styles(context):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        use_katex = context.get('use_katex', UNDEFINED)
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if use_katex:
+            __M_writer('        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_math_styles_ifpost(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
         def math_styles():
             return render_math_styles(context)
-        any = context.get('any', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
-        if any(post.has_math for post in posts):
+        if post.has_math:
             __M_writer('        ')
             __M_writer(str(math_styles()))
             __M_writer('\n')
@@ -139,6 +139,6 @@ def render_math_styles_ifposts(context,posts):
 
 """
 __M_BEGIN_METADATA
-{"line_map": {"130": 65, "131": 66, "132": 67, "133": 67, "134": 67, "140": 134, "16": 0, "21": 39, "22": 45, "23": 51, "24": 57, "25": 63, "26": 69, "32": 59, "38": 59, "39": 60, "40": 61, "41": 61, "42": 61, "48": 47, "54": 47, "55": 48, "56": 49, "57": 49, "58": 49, "64": 53, "71": 53, "72": 54, "73": 55, "74": 55, "75": 55, "81": 41, "86": 41, "87": 42, "88": 43, "94": 2, "101": 2, "102": 3, "103": 4, "104": 6, "105": 7, "106": 10, "107": 10, "108": 14, "109": 15, "110": 28, "111": 30, "112": 31, "113": 32, "114": 32, "115": 32, "116": 33, "117": 34, "123": 65}, "source_encoding": "utf-8", "uri": "math_helper.tmpl", "filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/math_helper.tmpl"}
+{"uri": "math_helper.tmpl", "filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/math_helper.tmpl", "source_encoding": "utf-8", "line_map": {"130": 59, "131": 60, "132": 61, "133": 61, "134": 61, "140": 134, "16": 0, "21": 39, "22": 45, "23": 51, "24": 57, "25": 63, "26": 69, "32": 65, "39": 65, "40": 66, "41": 67, "42": 67, "43": 67, "49": 53, "56": 53, "57": 54, "58": 55, "59": 55, "60": 55, "66": 47, "72": 47, "73": 48, "74": 49, "75": 49, "76": 49, "82": 2, "89": 2, "90": 3, "91": 4, "92": 6, "93": 7, "94": 10, "95": 10, "96": 14, "97": 15, "98": 28, "99": 30, "100": 31, "101": 32, "102": 32, "103": 32, "104": 33, "105": 34, "111": 41, "116": 41, "117": 42, "118": 43, "124": 59}}
 __M_END_METADATA
 """
