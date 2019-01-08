@@ -83,7 +83,8 @@ including, (i) input supplier (fertilizer and seeds) provision of recommendation
 directed towards heterogeneous environments and (iii) accounting of costs of agricultural research at 
 different scales when making input recommendations.
 
-2. Closing the gap in experimental-observational crop responses: A Bayesian approach. `Slides
+2. Closing the gap in experimental-observational crop responses: A Bayesian approach. 
+`Slides
 <https://github.com/MaxwellMkondiwa/Research/blob/master/ClosingGapsFoodGroupPresentationMaxwell_Final.pdf>`_.
 
 Crop response estimates to various farm inputs especially inorganic fertilizers are key ingredients 
@@ -98,7 +99,8 @@ The plausible assumption that makes this approach optimal is that the experiment
 while observational methods overestimate failures. In general, the findings of this paper using nationally representative datasets 
 from Malawi show that ignoring the parameter uncertainty and heterogeneity in crop responses inevitably results in wrong policy prescriptions.
 
-3. Estimating inter-district food flows in Malawi: Application of a Malawi Agricultural Sector Model. `Slides
+3. Estimating inter-district food flows in Malawi: Application of a Malawi Agricultural Sector Model. 
+`Slides
 <https://github.com/MaxwellMkondiwa/Research/blob/master/EstimatingFoodFlowsPaper_FoodGroupPresentation.pdf>`_. 
 
 This article develops a food sector spatially explicit mathematical programming model for Malawi 
@@ -147,6 +149,7 @@ Works in Progress
 7. Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
 8. What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
 Frikkie Liebenberg, Ian Luby, Senait Senay, Carlo Azzarri and Terry Hurley).
-9. Characteristics space analysis of agricultural technology adoption. `Slides
+9. Characteristics space analysis of agricultural technology adoption. 
+`Slides
 <https://github.com/MaxwellMkondiwa/Research/blob/master/XristicsSpaceFoodGroupPresentation_25thSept.pdf>`_.  
 
