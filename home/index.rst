@@ -14,7 +14,7 @@
    :alt: alternate text
    :align: right
    
-I am a PhD candidate in Applied Economics at the University of Minnesota. 
+I am a PhD candidate (expected Spring 2019) in Applied Economics at the University of Minnesota. 
 My main areas of research interest are production and marketing economics. 
 
 My dissertation focuses on the economics of developing and deploying 
@@ -33,7 +33,7 @@ for major food crops (maize, rice, cassava, potatoes, groundnuts and beans) in M
 that simulates food flows across districts given spatially specific agricultural policies, 
 transportation improvements and shocks (droughts or floods). 
 
-You will find on this website links to my CV, research papers and teaching experience.
+You will find on this website links to my CV, research papers and teaching experience. 
 
 You can contact me by e-mail: mkond001@umn.edu or phone: +265 99 416 3292 (Malawi) and  +1 651 366 2635 (US) 
 
