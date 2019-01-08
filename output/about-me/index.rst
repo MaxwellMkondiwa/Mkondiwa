@@ -13,6 +13,9 @@ day job research areas, I have broad research interests including in what people
 economics, environmental economics, behavioural economics, GIS and spatial econometrics, Bayesian
 econometrics, cultural economics, agronomy and philosophy. 
 
+I obtained a MSc in Applied Economics at University of Minnesota, MSc in Research Methods at 
+Jomokenyatta University of Agriculture and Technology (JKUAT), Kenya and BSc in Agricultural Economics from Bunda College, Malawi.
+
 I love playing soccer (alot!), watching soccer (alot as well) and reading philosophical novels 
 (my favourite novelists are Tolstoy, George Elliot, Toni Morrisoni and Paulo Coelho).
 
