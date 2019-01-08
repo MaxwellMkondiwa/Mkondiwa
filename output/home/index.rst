@@ -15,8 +15,8 @@
    :align: right
    
 I am a PhD candidate (expected Spring 2019) in Applied Economics at the University of Minnesota. 
-I am also a Graduate Research Assistant at the International Science Technology Policy and Practice (InSTEPP) 
-and adjunct research fellow at the Center for Agricultural Research and Development, Malawi.
+I am also a Graduate Research Assistant at the International Science & Technology Practice and Policy (InSTePP) 
+and adjunct research fellow at the Center for Agricultural Research and Development, Lilongwe University of Agriculture and Natural Resources (LUANAR), Malawi.
 
 My main areas of research interest are production and marketing economics. 
 
