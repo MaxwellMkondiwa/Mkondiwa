@@ -17,13 +17,13 @@
 I am a PhD candidate in Applied Economics at the University of Minnesota. 
 My main areas of research interest are production and marketing economics. 
 
-My dissertation dissertation focuses on the economics of developing and deploying 
+My dissertation focuses on the economics of developing and deploying 
 agricultural research recommendations with measurable predicted rates of adoption
 and economic welfare. The dissertation consists of three related papers. The first 
-paper resolves the crop response puzzle of divergence between 
+paper resolves the crop response estimates puzzle of divergence between 
 experimental (i.e. agronomic experiments) and observational (e.g. farmer surveys)
 crop responses to fertilizer application by proposing that a Bayesian combination of 
-these estimates may lead to more profitable recommendations for farmers.  
+these estimates leads to more profitable recommendations for farmers.  
 The second paper addresses the problem of identifying which traits/characteristics of 
 technologies will likely increase technology adoption given the interactions between 
 such characteristics and farmer characteristics.  The third and final paper addresses 
@@ -35,4 +35,4 @@ transportation improvements and shocks (droughts or floods).
 
 You will find on this website links to my CV, research papers and teaching experience.
 
-You can contact by e-mail: mkond001@umn.edu or phone: +265 99 416 3292 (Malawi) and  +1 651 366 2635 (US) 
+You can contact me by e-mail: mkond001@umn.edu or phone: +265 99 416 3292 (Malawi) and  +1 651 366 2635 (US) 
