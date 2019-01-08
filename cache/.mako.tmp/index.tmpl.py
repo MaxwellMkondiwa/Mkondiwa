@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1546921286.9723597
+_modified_time = 1546921626.1671731
 _enable_loop = True
 _template_filename = 'c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/bootblog4/templates/index.tmpl'
 _template_uri = 'index.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['before_content', 'extra_head', 'content_header', 'content']
+_exports = ['content', 'extra_head', 'before_content', 'content_header']
 
 
 def _mako_get_namespace(context, name):
@@ -20,20 +20,20 @@ def _mako_get_namespace(context, name):
         _mako_generate_namespaces(context)
         return context.namespaces[(__name__, name)]
 def _mako_generate_namespaces(context):
+    ns = runtime.TemplateNamespace('comments', context._clean_inheritance_tokens(), templateuri='comments_helper.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'comments')] = ns
+
     ns = runtime.TemplateNamespace('feeds_translations', context._clean_inheritance_tokens(), templateuri='feeds_translations_helper.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'feeds_translations')] = ns
-
-    ns = runtime.TemplateNamespace('math', context._clean_inheritance_tokens(), templateuri='math_helper.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'math')] = ns
-
-    ns = runtime.TemplateNamespace('pagination', context._clean_inheritance_tokens(), templateuri='pagination_helper.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'pagination')] = ns
 
     ns = runtime.TemplateNamespace('helper', context._clean_inheritance_tokens(), templateuri='index_helper.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'helper')] = ns
 
-    ns = runtime.TemplateNamespace('comments', context._clean_inheritance_tokens(), templateuri='comments_helper.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'comments')] = ns
+    ns = runtime.TemplateNamespace('pagination', context._clean_inheritance_tokens(), templateuri='pagination_helper.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'pagination')] = ns
+
+    ns = runtime.TemplateNamespace('math', context._clean_inheritance_tokens(), templateuri='math_helper.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'math')] = ns
 
 def _mako_inherit(template, context):
     _mako_generate_namespaces(context)
@@ -45,38 +45,38 @@ def render_body(context,**pageargs):
         _import_ns = {}
         _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
         posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
-        index_file = _import_ns.get('index_file', context.get('index_file', UNDEFINED))
+        def content_header():
+            return render_content_header(context._locals(__M_locals))
         permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        theme_config = _import_ns.get('theme_config', context.get('theme_config', UNDEFINED))
         def content():
             return render_content(context._locals(__M_locals))
-        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
-        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
-        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
-        index_teasers = _import_ns.get('index_teasers', context.get('index_teasers', UNDEFINED))
         front_index_header = _import_ns.get('front_index_header', context.get('front_index_header', UNDEFINED))
+        pagination = _mako_get_namespace(context, 'pagination')
+        def before_content():
+            return render_before_content(context._locals(__M_locals))
         current_page = _import_ns.get('current_page', context.get('current_page', UNDEFINED))
+        is_frontmost_index = _import_ns.get('is_frontmost_index', context.get('is_frontmost_index', UNDEFINED))
+        page_links = _import_ns.get('page_links', context.get('page_links', UNDEFINED))
+        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
         len = _import_ns.get('len', context.get('len', UNDEFINED))
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
-        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
-        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
-        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
-        theme_config = _import_ns.get('theme_config', context.get('theme_config', UNDEFINED))
-        def before_content():
-            return render_before_content(context._locals(__M_locals))
-        page_links = _import_ns.get('page_links', context.get('page_links', UNDEFINED))
-        featured = _import_ns.get('featured', context.get('featured', UNDEFINED))
-        prev_next_links_reversed = _import_ns.get('prev_next_links_reversed', context.get('prev_next_links_reversed', UNDEFINED))
-        prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
-        def content_header():
-            return render_content_header(context._locals(__M_locals))
-        nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
+        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
         helper = _mako_get_namespace(context, 'helper')
-        is_frontmost_index = _import_ns.get('is_frontmost_index', context.get('is_frontmost_index', UNDEFINED))
+        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
+        index_file = _import_ns.get('index_file', context.get('index_file', UNDEFINED))
+        prev_next_links_reversed = _import_ns.get('prev_next_links_reversed', context.get('prev_next_links_reversed', UNDEFINED))
+        index_teasers = _import_ns.get('index_teasers', context.get('index_teasers', UNDEFINED))
+        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
+        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
+        featured = _import_ns.get('featured', context.get('featured', UNDEFINED))
         math = _mako_get_namespace(context, 'math')
-        pagination = _mako_get_namespace(context, 'pagination')
         pagekind = _import_ns.get('pagekind', context.get('pagekind', UNDEFINED))
+        prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
         comments = _mako_get_namespace(context, 'comments')
+        nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
         author_pages_generated = _import_ns.get('author_pages_generated', context.get('author_pages_generated', UNDEFINED))
         kind = _import_ns.get('kind', context.get('kind', UNDEFINED))
         __M_writer = context.writer()
@@ -106,173 +106,33 @@ def render_body(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
-def render_before_content(context,**pageargs):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        _import_ns = {}
-        _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
-        len = _import_ns.get('len', context.get('len', UNDEFINED))
-        pagekind = _import_ns.get('pagekind', context.get('pagekind', UNDEFINED))
-        theme_config = _import_ns.get('theme_config', context.get('theme_config', UNDEFINED))
-        is_frontmost_index = _import_ns.get('is_frontmost_index', context.get('is_frontmost_index', UNDEFINED))
-        def before_content():
-            return render_before_content(context)
-        featured = _import_ns.get('featured', context.get('featured', UNDEFINED))
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if 'main_index' in pagekind and is_frontmost_index and featured and (theme_config.get('featured_large') or theme_config.get('featured_small')):
-            if theme_config.get('featured_on_mobile'):
-                __M_writer('            <div class="d-block">\n')
-            else:
-                __M_writer('            <div class="d-none d-md-block">\n')
-            if featured and theme_config.get('featured_large'):
-                __M_writer('        <div class="jumbotron p-0 text-white rounded bg-dark">\n            <div class="row bootblog4-featured-jumbotron-row">\n                <div class="col-md-6 p-3 p-md-4 pr-0 h-md-250 bootblog4-featured-text">\n                    <h1 class="display-4 font-italic"><a class="text-white" href="')
-                __M_writer(str(featured[0].permalink()))
-                __M_writer('">')
-                __M_writer(str(featured[0].title()))
-                __M_writer('</a></h1>\n')
-                if featured[0].previewimage:
-                    __M_writer('                            <div class="lead my-3 mb-0">')
-                    __M_writer(str(featured[0].text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
-                    __M_writer('</div>\n                        </div>\n')
-                    if theme_config.get('featured_large_image_on_mobile'):
-                        __M_writer('                        <div class="col-md-6 p-0 h-md-250 text-right">\n')
-                    else:
-                        __M_writer('                        <div class="col-md-6 p-0 h-md-250 text-right d-none d-md-block">\n')
-                    __M_writer('                            <img class="bootblog4-featured-large-image" src="')
-                    __M_writer(str(featured[0].previewimage))
-                    __M_writer('" alt="')
-                    __M_writer(str(featured.pop(0).title()))
-                    __M_writer('">\n                        </div>\n')
-                else:
-                    __M_writer('                        <div class="lead my-3 mb-0">')
-                    __M_writer(str(featured.pop(0).text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
-                    __M_writer('</div>\n                        </div>\n')
-                __M_writer('            </div>\n        </div>\n')
-            __M_writer('\n')
-            if featured and theme_config.get('featured_small'):
-                __M_writer('            <div class="row mb-2">\n')
-                if len(featured) == 1:
-                    __M_writer('                <div class="col-md-12">\n')
-                else:
-                    __M_writer('                <div class="col-md-6">\n')
-                __M_writer('                    <div class="card flex-md-row mb-4 box-shadow h-md-250">\n                       <div class="card-body d-flex flex-column align-items-start">\n                           <h3 class="mb-0">\n                               <a class="text-dark" href="')
-                __M_writer(str(featured[0].permalink()))
-                __M_writer('">')
-                __M_writer(str(featured[0].title()))
-                __M_writer('</a>\n                           </h3>\n')
-                if featured[0].previewimage:
-                    __M_writer('                               <div class="card-text mb-auto bootblog4-featured-text">')
-                    __M_writer(str(featured[0].text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
-                    __M_writer('</div>\n                               </div>\n                               <img class="card-img-right flex-auto d-none d-lg-block" src="')
-                    __M_writer(str(featured[0].previewimage))
-                    __M_writer('" alt="')
-                    __M_writer(str(featured.pop(0).title()))
-                    __M_writer('">\n')
-                else:
-                    __M_writer('                           <div class="card-text mb-auto bootblog4-featured-text">')
-                    __M_writer(str(featured.pop(0).text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
-                    __M_writer('</div>\n                           </div>\n')
-                __M_writer('                    </div>\n                </div>\n\n')
-                if featured:
-                    __M_writer('               <div class="col-md-6">\n                    <div class="card flex-md-row mb-4 box-shadow h-md-250">\n                       <div class="card-body d-flex flex-column align-items-start">\n                           <h3 class="mb-0">\n                               <a class="text-dark" href="')
-                    __M_writer(str(featured[0].permalink()))
-                    __M_writer('">')
-                    __M_writer(str(featured[0].title()))
-                    __M_writer('</a>\n                           </h3>\n')
-                    if featured[0].previewimage:
-                        __M_writer('                               <div class="card-text mb-auto bootblog4-featured-text">')
-                        __M_writer(str(featured[0].text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
-                        __M_writer('</div>\n                               </div>\n                               <img class="card-img-right flex-auto d-none d-lg-block" src="')
-                        __M_writer(str(featured[0].previewimage))
-                        __M_writer('" alt="')
-                        __M_writer(str(featured.pop(0).title()))
-                        __M_writer('">\n')
-                    else:
-                        __M_writer('                           <div class="card-text mb-auto bootblog4-featured-text">')
-                        __M_writer(str(featured.pop(0).text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
-                        __M_writer('</div>\n                           </div>\n')
-                    __M_writer('                    </div>\n                </div>\n')
-                __M_writer('       </div>\n')
-            __M_writer('    </div>\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
-def render_extra_head(context,**pageargs):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        _import_ns = {}
-        _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
-        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
-        index_file = _import_ns.get('index_file', context.get('index_file', UNDEFINED))
-        math = _mako_get_namespace(context, 'math')
-        def extra_head():
-            return render_extra_head(context)
-        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
-        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
-        __M_writer = context.writer()
-        __M_writer('\n    ')
-        __M_writer(str(parent.extra_head()))
-        __M_writer('\n')
-        if posts and (permalink == '/' or permalink == '/' + index_file):
-            __M_writer('        <link rel="prefetch" href="')
-            __M_writer(str(posts[0].permalink()))
-            __M_writer('" type="text/html">\n')
-        __M_writer('    ')
-        __M_writer(str(math.math_styles_ifposts(posts)))
-        __M_writer('\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
-def render_content_header(context,**pageargs):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        _import_ns = {}
-        _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
-        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
-        kind = _import_ns.get('kind', context.get('kind', UNDEFINED))
-        def content_header():
-            return render_content_header(context)
-        __M_writer = context.writer()
-        __M_writer('\n        ')
-        __M_writer(str(feeds_translations.translation_link(kind)))
-        __M_writer('\n    ')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
         posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
-        def content():
-            return render_content(context)
-        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
-        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
-        index_teasers = _import_ns.get('index_teasers', context.get('index_teasers', UNDEFINED))
-        current_page = _import_ns.get('current_page', context.get('current_page', UNDEFINED))
-        front_index_header = _import_ns.get('front_index_header', context.get('front_index_header', UNDEFINED))
-        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
-        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
-        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
-        page_links = _import_ns.get('page_links', context.get('page_links', UNDEFINED))
-        prev_next_links_reversed = _import_ns.get('prev_next_links_reversed', context.get('prev_next_links_reversed', UNDEFINED))
-        prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
         def content_header():
             return render_content_header(context)
-        nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
-        helper = _mako_get_namespace(context, 'helper')
-        math = _mako_get_namespace(context, 'math')
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        def content():
+            return render_content(context)
+        front_index_header = _import_ns.get('front_index_header', context.get('front_index_header', UNDEFINED))
         pagination = _mako_get_namespace(context, 'pagination')
+        current_page = _import_ns.get('current_page', context.get('current_page', UNDEFINED))
+        page_links = _import_ns.get('page_links', context.get('page_links', UNDEFINED))
+        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
+        helper = _mako_get_namespace(context, 'helper')
+        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
+        prev_next_links_reversed = _import_ns.get('prev_next_links_reversed', context.get('prev_next_links_reversed', UNDEFINED))
+        index_teasers = _import_ns.get('index_teasers', context.get('index_teasers', UNDEFINED))
+        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
+        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
+        math = _mako_get_namespace(context, 'math')
         pagekind = _import_ns.get('pagekind', context.get('pagekind', UNDEFINED))
+        prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
         comments = _mako_get_namespace(context, 'comments')
+        nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
         author_pages_generated = _import_ns.get('author_pages_generated', context.get('author_pages_generated', UNDEFINED))
         kind = _import_ns.get('kind', context.get('kind', UNDEFINED))
         __M_writer = context.writer()
@@ -355,8 +215,148 @@ def render_content(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
+def render_extra_head(context,**pageargs):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        _import_ns = {}
+        _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
+        def extra_head():
+            return render_extra_head(context)
+        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
+        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
+        math = _mako_get_namespace(context, 'math')
+        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
+        index_file = _import_ns.get('index_file', context.get('index_file', UNDEFINED))
+        __M_writer = context.writer()
+        __M_writer('\n    ')
+        __M_writer(str(parent.extra_head()))
+        __M_writer('\n')
+        if posts and (permalink == '/' or permalink == '/' + index_file):
+            __M_writer('        <link rel="prefetch" href="')
+            __M_writer(str(posts[0].permalink()))
+            __M_writer('" type="text/html">\n')
+        __M_writer('    ')
+        __M_writer(str(math.math_styles_ifposts(posts)))
+        __M_writer('\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_before_content(context,**pageargs):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        _import_ns = {}
+        _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
+        len = _import_ns.get('len', context.get('len', UNDEFINED))
+        def before_content():
+            return render_before_content(context)
+        featured = _import_ns.get('featured', context.get('featured', UNDEFINED))
+        is_frontmost_index = _import_ns.get('is_frontmost_index', context.get('is_frontmost_index', UNDEFINED))
+        theme_config = _import_ns.get('theme_config', context.get('theme_config', UNDEFINED))
+        pagekind = _import_ns.get('pagekind', context.get('pagekind', UNDEFINED))
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if 'main_index' in pagekind and is_frontmost_index and featured and (theme_config.get('featured_large') or theme_config.get('featured_small')):
+            if theme_config.get('featured_on_mobile'):
+                __M_writer('            <div class="d-block">\n')
+            else:
+                __M_writer('            <div class="d-none d-md-block">\n')
+            if featured and theme_config.get('featured_large'):
+                __M_writer('        <div class="jumbotron p-0 text-white rounded bg-dark">\n            <div class="row bootblog4-featured-jumbotron-row">\n                <div class="col-md-6 p-3 p-md-4 pr-0 h-md-250 bootblog4-featured-text">\n                    <h1 class="display-4 font-italic"><a class="text-white" href="')
+                __M_writer(str(featured[0].permalink()))
+                __M_writer('">')
+                __M_writer(str(featured[0].title()))
+                __M_writer('</a></h1>\n')
+                if featured[0].previewimage:
+                    __M_writer('                            <div class="lead my-3 mb-0">')
+                    __M_writer(str(featured[0].text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
+                    __M_writer('</div>\n                        </div>\n')
+                    if theme_config.get('featured_large_image_on_mobile'):
+                        __M_writer('                        <div class="col-md-6 p-0 h-md-250 text-right">\n')
+                    else:
+                        __M_writer('                        <div class="col-md-6 p-0 h-md-250 text-right d-none d-md-block">\n')
+                    __M_writer('                            <img class="bootblog4-featured-large-image" src="')
+                    __M_writer(str(featured[0].previewimage))
+                    __M_writer('" alt="')
+                    __M_writer(str(featured.pop(0).title()))
+                    __M_writer('">\n                        </div>\n')
+                else:
+                    __M_writer('                        <div class="lead my-3 mb-0">')
+                    __M_writer(str(featured.pop(0).text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
+                    __M_writer('</div>\n                        </div>\n')
+                __M_writer('            </div>\n        </div>\n')
+            __M_writer('\n')
+            if featured and theme_config.get('featured_small'):
+                __M_writer('            <div class="row mb-2">\n')
+                if len(featured) == 1:
+                    __M_writer('                <div class="col-md-12">\n')
+                else:
+                    __M_writer('                <div class="col-md-6">\n')
+                __M_writer('                    <div class="card flex-md-row mb-4 box-shadow h-md-250">\n                       <div class="card-body d-flex flex-column align-items-start">\n                           <h3 class="mb-0">\n                               <a class="text-dark" href="')
+                __M_writer(str(featured[0].permalink()))
+                __M_writer('">')
+                __M_writer(str(featured[0].title()))
+                __M_writer('</a>\n                           </h3>\n')
+                if featured[0].previewimage:
+                    __M_writer('                               <div class="card-text mb-auto bootblog4-featured-text">')
+                    __M_writer(str(featured[0].text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
+                    __M_writer('</div>\n                               </div>\n                               <img class="card-img-right flex-auto d-none d-lg-block" src="')
+                    __M_writer(str(featured[0].previewimage))
+                    __M_writer('" alt="')
+                    __M_writer(str(featured.pop(0).title()))
+                    __M_writer('">\n')
+                else:
+                    __M_writer('                           <div class="card-text mb-auto bootblog4-featured-text">')
+                    __M_writer(str(featured.pop(0).text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
+                    __M_writer('</div>\n                           </div>\n')
+                __M_writer('                    </div>\n                </div>\n\n')
+                if featured:
+                    __M_writer('               <div class="col-md-6">\n                    <div class="card flex-md-row mb-4 box-shadow h-md-250">\n                       <div class="card-body d-flex flex-column align-items-start">\n                           <h3 class="mb-0">\n                               <a class="text-dark" href="')
+                    __M_writer(str(featured[0].permalink()))
+                    __M_writer('">')
+                    __M_writer(str(featured[0].title()))
+                    __M_writer('</a>\n                           </h3>\n')
+                    if featured[0].previewimage:
+                        __M_writer('                               <div class="card-text mb-auto bootblog4-featured-text">')
+                        __M_writer(str(featured[0].text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
+                        __M_writer('</div>\n                               </div>\n                               <img class="card-img-right flex-auto d-none d-lg-block" src="')
+                        __M_writer(str(featured[0].previewimage))
+                        __M_writer('" alt="')
+                        __M_writer(str(featured.pop(0).title()))
+                        __M_writer('">\n')
+                    else:
+                        __M_writer('                           <div class="card-text mb-auto bootblog4-featured-text">')
+                        __M_writer(str(featured.pop(0).text(teaser_only=True, strip_html=theme_config.get('featured_strip_html', True))))
+                        __M_writer('</div>\n                           </div>\n')
+                    __M_writer('                    </div>\n                </div>\n')
+                __M_writer('       </div>\n')
+            __M_writer('    </div>\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_content_header(context,**pageargs):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        _import_ns = {}
+        _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
+        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
+        kind = _import_ns.get('kind', context.get('kind', UNDEFINED))
+        def content_header():
+            return render_content_header(context)
+        __M_writer = context.writer()
+        __M_writer('\n        ')
+        __M_writer(str(feeds_translations.translation_link(kind)))
+        __M_writer('\n    ')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
 """
 __M_BEGIN_METADATA
-{"uri": "index.tmpl", "filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/bootblog4/templates/index.tmpl", "line_map": {"23": 6, "26": 3, "29": 5, "32": 2, "35": 4, "41": 0, "83": 2, "84": 3, "85": 4, "86": 5, "87": 6, "88": 7, "93": 15, "98": 69, "103": 146, "109": 71, "122": 71, "123": 72, "124": 73, "125": 74, "126": 75, "127": 76, "128": 78, "129": 79, "130": 82, "131": 82, "132": 82, "133": 82, "134": 83, "135": 84, "136": 84, "137": 84, "138": 86, "139": 87, "140": 88, "141": 89, "142": 91, "143": 91, "144": 91, "145": 91, "146": 91, "147": 93, "148": 94, "149": 94, "150": 94, "151": 97, "152": 100, "153": 101, "154": 102, "155": 103, "156": 104, "157": 105, "158": 106, "159": 108, "160": 111, "161": 111, "162": 111, "163": 111, "164": 113, "165": 114, "166": 114, "167": 114, "168": 116, "169": 116, "170": 116, "171": 116, "172": 117, "173": 118, "174": 118, "175": 118, "176": 121, "177": 124, "178": 125, "179": 129, "180": 129, "181": 129, "182": 129, "183": 131, "184": 132, "185": 132, "186": 132, "187": 134, "188": 134, "189": 134, "190": 134, "191": 135, "192": 136, "193": 136, "194": 136, "195": 139, "196": 142, "197": 144, "203": 9, "216": 9, "217": 10, "218": 10, "219": 11, "220": 12, "221": 12, "222": 12, "223": 14, "224": 14, "225": 14, "231": 18, "241": 18, "242": 19, "243": 19, "249": 17, "279": 17, "284": 20, "285": 21, "286": 22, "287": 22, "288": 22, "289": 24, "290": 25, "291": 25, "292": 25, "293": 27, "294": 28, "295": 29, "296": 29, "297": 29, "298": 31, "299": 31, "300": 31, "301": 31, "302": 34, "303": 35, "304": 35, "305": 35, "306": 35, "307": 35, "308": 36, "309": 37, "310": 37, "311": 37, "312": 39, "313": 41, "314": 41, "315": 42, "316": 42, "317": 42, "318": 42, "319": 42, "320": 42, "321": 43, "322": 44, "323": 44, "324": 44, "325": 45, "326": 45, "327": 45, "328": 45, "329": 45, "330": 45, "331": 47, "332": 49, "333": 50, "334": 50, "335": 50, "336": 52, "337": 54, "338": 55, "339": 56, "340": 56, "341": 58, "342": 59, "343": 60, "344": 60, "345": 63, "346": 65, "347": 66, "348": 66, "349": 67, "350": 67, "351": 68, "352": 68, "358": 352}, "source_encoding": "utf-8"}
+{"uri": "index.tmpl", "filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/bootblog4/templates/index.tmpl", "line_map": {"23": 4, "26": 6, "29": 2, "32": 5, "35": 3, "41": 0, "83": 2, "84": 3, "85": 4, "86": 5, "87": 6, "88": 7, "93": 15, "98": 69, "103": 146, "109": 17, "139": 17, "144": 20, "145": 21, "146": 22, "147": 22, "148": 22, "149": 24, "150": 25, "151": 25, "152": 25, "153": 27, "154": 28, "155": 29, "156": 29, "157": 29, "158": 31, "159": 31, "160": 31, "161": 31, "162": 34, "163": 35, "164": 35, "165": 35, "166": 35, "167": 35, "168": 36, "169": 37, "170": 37, "171": 37, "172": 39, "173": 41, "174": 41, "175": 42, "176": 42, "177": 42, "178": 42, "179": 42, "180": 42, "181": 43, "182": 44, "183": 44, "184": 44, "185": 45, "186": 45, "187": 45, "188": 45, "189": 45, "190": 45, "191": 47, "192": 49, "193": 50, "194": 50, "195": 50, "196": 52, "197": 54, "198": 55, "199": 56, "200": 56, "201": 58, "202": 59, "203": 60, "204": 60, "205": 63, "206": 65, "207": 66, "208": 66, "209": 67, "210": 67, "211": 68, "212": 68, "218": 9, "231": 9, "232": 10, "233": 10, "234": 11, "235": 12, "236": 12, "237": 12, "238": 14, "239": 14, "240": 14, "246": 71, "259": 71, "260": 72, "261": 73, "262": 74, "263": 75, "264": 76, "265": 78, "266": 79, "267": 82, "268": 82, "269": 82, "270": 82, "271": 83, "272": 84, "273": 84, "274": 84, "275": 86, "276": 87, "277": 88, "278": 89, "279": 91, "280": 91, "281": 91, "282": 91, "283": 91, "284": 93, "285": 94, "286": 94, "287": 94, "288": 97, "289": 100, "290": 101, "291": 102, "292": 103, "293": 104, "294": 105, "295": 106, "296": 108, "297": 111, "298": 111, "299": 111, "300": 111, "301": 113, "302": 114, "303": 114, "304": 114, "305": 116, "306": 116, "307": 116, "308": 116, "309": 117, "310": 118, "311": 118, "312": 118, "313": 121, "314": 124, "315": 125, "316": 129, "317": 129, "318": 129, "319": 129, "320": 131, "321": 132, "322": 132, "323": 132, "324": 134, "325": 134, "326": 134, "327": 134, "328": 135, "329": 136, "330": 136, "331": 136, "332": 139, "333": 142, "334": 144, "340": 18, "350": 18, "351": 19, "352": 19, "358": 352}, "source_encoding": "utf-8"}
 __M_END_METADATA
 """
