@@ -30,7 +30,7 @@ overestimates the technological proximity across countries as compared to the pr
 Aitchison measure.
 
 2) `Poverty-Lack of Access to Adequate Safe Water Nexus: Evidence from Rural Malawi
-<https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8268.12048>`_. African Developmet Review ,2013, 25(4): 537-550.
+<https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8268.12048>`_. African Development Review ,2013, 25(4): 537-550.
 
 This paper investigates the relationship between poverty and lack ofaccess to 
 adequate safe water in rural Malawi.Data used in the analysis was collected 
@@ -84,7 +84,7 @@ directed towards heterogeneous environments and (iii) accounting of costs of agr
 different scales when making input recommendations.
 
 2. Closing the gap in experimental-observational crop responses: A Bayesian approach.
-`Food Group Meeting Slides
+`Presentation-Food Group
 <https://github.com/MaxwellMkondiwa/Research/blob/master/ClosingGapsFoodGroupPresentationMaxwell_Final.pdf>`_.
 
 Crop response estimates to various farm inputs especially inorganic fertilizers are key ingredients 
@@ -100,7 +100,7 @@ while observational methods overestimate failures. In general, the findings of t
 from Malawi show that ignoring the parameter uncertainty and heterogeneity in crop responses inevitably results in wrong policy prescriptions.
 
 3. Estimating inter-district food flows in Malawi: Application of a Malawi Agricultural Sector Model.
-`Flow Slides
+`Presentation
 <https://github.com/MaxwellMkondiwa/Research/blob/master/EstimatingFoodFlowsPaper_FoodGroupPresentation.pdf>`_. 
 
 This article develops a food sector spatially explicit mathematical programming model for Malawi 
