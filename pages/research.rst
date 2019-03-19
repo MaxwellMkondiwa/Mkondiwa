@@ -132,7 +132,19 @@ two period nationally representative panel survey data in Malawi and rely on the
 spatial variation in access to schooling to identify effects of schooling on agricultural incomes. In addition, 
 I use recent econometric methods to correct for selection into income activities within a panel data and instrumental variables estimation framework. I find annual agricultural returns to one additional year of schooling in Malawi that range from 3% to 7%. 
 
-5. Games of strategy in culture and economics research. Draft version available upon request.
+5. Games of strategy in culture and economics research.
+`Preliminary version
+<https://github.com/MaxwellMkondiwa/Research/blob/master/Games%20of%20strategy%20in%20culture%20and%20economics%20research_working%20paper.pdf>`_.
+
+Games are meant to be fun, yet economists have successfully developed games that are less fun and less understood by 
+participants especially in developing countries. This paper surveys failures in risk attitudes elicitation in 
+sub-Saharan Africa (SSA) and questions the use of complex research tools such as multiple price list (MPL) approaches 
+and behavioral games that rural participants have never played before. The failures can be avoided by using innovative 
+research tools that ingest local activities like indigenous board games that the rural people have played for generations 
+because these games are entertaining and closely related to the economic decisions they make. In the case of Malawi and other 
+African countries, bawo-an indigenous board game- is the most common of these games and relates to every day economic decision making. 
+I provide a description of the game and suggest a research agenda that applies the game in economics research-for risk attitudes elicitation, 
+improving math skills of children and behavioral game theory.
 
 
 Work in progress

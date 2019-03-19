@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1547471988.766994
+_modified_time = 1552955647.6009924
 _enable_loop = True
 _template_filename = 'c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/post_helper.tmpl'
 _template_uri = 'post_helper.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['html_pager', 'mathjax_script', 'twitter_card_information', 'html_tags', 'meta_translations', 'open_graph_metadata']
+_exports = ['mathjax_script', 'html_pager', 'meta_translations', 'twitter_card_information', 'html_tags', 'open_graph_metadata']
 
 
 def _mako_get_namespace(context, name):
@@ -34,6 +34,19 @@ def render_body(context,**pageargs):
         __M_writer('\n\n')
         __M_writer('\n\n')
         __M_writer('\n\n')
+        __M_writer('\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_mathjax_script(context,post):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        math = _mako_get_namespace(context, 'math')
+        __M_writer = context.writer()
+        __M_writer('\n    ')
+        __M_writer(str(math.math_scripts_ifpost(post)))
         __M_writer('\n')
         return ''
     finally:
@@ -70,14 +83,23 @@ def render_html_pager(context,post):
         context.caller_stack._pop_frame()
 
 
-def render_mathjax_script(context,post):
+def render_meta_translations(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        math = _mako_get_namespace(context, 'math')
+        sorted = context.get('sorted', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
+        len = context.get('len', UNDEFINED)
+        translations = context.get('translations', UNDEFINED)
         __M_writer = context.writer()
-        __M_writer('\n    ')
-        __M_writer(str(math.math_scripts_ifpost(post)))
         __M_writer('\n')
+        if len(translations) > 1:
+            for langname in sorted(translations):
+                if langname != lang and ((not post.skip_untranslated) or post.is_translation_available(langname)):
+                    __M_writer('                <link rel="alternate" hreflang="')
+                    __M_writer(str(langname))
+                    __M_writer('" href="')
+                    __M_writer(str(post.permalink(langname)))
+                    __M_writer('">\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -136,36 +158,14 @@ def render_html_tags(context,post):
         context.caller_stack._pop_frame()
 
 
-def render_meta_translations(context,post):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        translations = context.get('translations', UNDEFINED)
-        len = context.get('len', UNDEFINED)
-        sorted = context.get('sorted', UNDEFINED)
-        lang = context.get('lang', UNDEFINED)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if len(translations) > 1:
-            for langname in sorted(translations):
-                if langname != lang and ((not post.skip_untranslated) or post.is_translation_available(langname)):
-                    __M_writer('                <link rel="alternate" hreflang="')
-                    __M_writer(str(langname))
-                    __M_writer('" href="')
-                    __M_writer(str(post.permalink(langname)))
-                    __M_writer('">\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 def render_open_graph_metadata(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        permalink = context.get('permalink', UNDEFINED)
-        url_replacer = context.get('url_replacer', UNDEFINED)
-        blog_title = context.get('blog_title', UNDEFINED)
-        abs_link = context.get('abs_link', UNDEFINED)
         lang = context.get('lang', UNDEFINED)
+        permalink = context.get('permalink', UNDEFINED)
+        blog_title = context.get('blog_title', UNDEFINED)
+        url_replacer = context.get('url_replacer', UNDEFINED)
+        abs_link = context.get('abs_link', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<meta property="og:site_name" content="')
         __M_writer(filters.html_escape(str(blog_title)))
@@ -203,6 +203,6 @@ def render_open_graph_metadata(context,post):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"23": 2, "26": 0, "31": 2, "32": 12, "33": 24, "34": 41, "35": 68, "36": 84, "37": 89, "43": 26, "48": 26, "49": 27, "50": 28, "51": 29, "52": 30, "53": 31, "54": 31, "55": 31, "56": 31, "57": 31, "58": 31, "59": 34, "60": 35, "61": 36, "62": 36, "63": 36, "64": 36, "65": 36, "66": 36, "67": 39, "73": 87, "78": 87, "79": 88, "80": 88, "86": 70, "91": 70, "92": 71, "93": 72, "94": 72, "95": 72, "96": 73, "97": 74, "98": 74, "99": 74, "100": 75, "101": 76, "102": 76, "103": 76, "104": 78, "105": 79, "106": 79, "107": 79, "108": 80, "109": 81, "110": 81, "111": 81, "117": 14, "123": 14, "124": 15, "125": 16, "126": 17, "127": 18, "128": 19, "129": 19, "130": 19, "131": 19, "132": 19, "133": 22, "139": 4, "147": 4, "148": 5, "149": 6, "150": 7, "151": 8, "152": 8, "153": 8, "154": 8, "155": 8, "161": 43, "170": 43, "171": 44, "172": 44, "173": 45, "174": 45, "175": 46, "176": 46, "177": 47, "178": 48, "179": 48, "180": 48, "181": 49, "182": 50, "183": 50, "184": 50, "185": 52, "186": 53, "187": 53, "188": 53, "189": 55, "190": 60, "191": 61, "192": 61, "193": 61, "194": 63, "195": 64, "196": 65, "197": 65, "198": 65, "204": 198}, "uri": "post_helper.tmpl", "filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/post_helper.tmpl"}
+{"line_map": {"23": 2, "26": 0, "31": 2, "32": 12, "33": 24, "34": 41, "35": 68, "36": 84, "37": 89, "43": 87, "48": 87, "49": 88, "50": 88, "56": 26, "61": 26, "62": 27, "63": 28, "64": 29, "65": 30, "66": 31, "67": 31, "68": 31, "69": 31, "70": 31, "71": 31, "72": 34, "73": 35, "74": 36, "75": 36, "76": 36, "77": 36, "78": 36, "79": 36, "80": 39, "86": 4, "94": 4, "95": 5, "96": 6, "97": 7, "98": 8, "99": 8, "100": 8, "101": 8, "102": 8, "108": 70, "113": 70, "114": 71, "115": 72, "116": 72, "117": 72, "118": 73, "119": 74, "120": 74, "121": 74, "122": 75, "123": 76, "124": 76, "125": 76, "126": 78, "127": 79, "128": 79, "129": 79, "130": 80, "131": 81, "132": 81, "133": 81, "139": 14, "145": 14, "146": 15, "147": 16, "148": 17, "149": 18, "150": 19, "151": 19, "152": 19, "153": 19, "154": 19, "155": 22, "161": 43, "170": 43, "171": 44, "172": 44, "173": 45, "174": 45, "175": 46, "176": 46, "177": 47, "178": 48, "179": 48, "180": 48, "181": 49, "182": 50, "183": 50, "184": 50, "185": 52, "186": 53, "187": 53, "188": 53, "189": 55, "190": 60, "191": 61, "192": 61, "193": 61, "194": 63, "195": 64, "196": 65, "197": 65, "198": 65, "204": 198}, "filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/post_helper.tmpl", "uri": "post_helper.tmpl", "source_encoding": "utf-8"}
 __M_END_METADATA
 """
