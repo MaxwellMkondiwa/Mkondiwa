@@ -83,42 +83,58 @@ including, (i) input supplier (fertilizer and seeds) provision of recommendation
 directed towards heterogeneous environments and (iii) accounting of costs of agricultural research at 
 different scales when making input recommendations.
 
-2. Closing the gap in experimental-observational crop responses: A Bayesian approach.
-`Presentation-Food Group
-<https://github.com/MaxwellMkondiwa/Research/blob/master/ClosingGapsFoodGroupPresentationMaxwell_Final.pdf>`_.
+2. Closing the gaps in experimental-observational crop responses: A Bayesian approach.
+`Dissertation Chapter 2
+<https://github.com/MaxwellMkondiwa/Research/blob/master/MkondiwaPhDDissertation26thJune2019.pdf>`_.
 
-Crop response estimates to various farm inputs especially inorganic fertilizers are key ingredients 
-in policy and welfare analyses. The continuing divergence between experimental and observational crop 
-responses reported in the literature coupled with the recent debates on the costs and benefits of the 
-re-surging farm input subsidy programs in Africa have ignited the old problem of reconciling these estimates. 
-This paper argues that progress on closing the gaps has been minimal because the past literature has emphasized 
-the mean crop response differences, neglecting the distribution of these crop responses. I show in this paper 
-that a convenient way of dealing with different crop response function estimates is to use a Bayesian approach 
-to get combined estimates that are weighted by the uncertainty in each data source and can be adjusted for unobserved heterogeneity. 
-The plausible assumption that makes this approach optimal is that the experimental process overestimates the “true” crop response; 
-while observational methods overestimate failures. In general, the findings of this paper using nationally representative datasets 
-from Malawi show that ignoring the parameter uncertainty and heterogeneity in crop responses inevitably results in wrong policy prescriptions.
+A stylized fact of African agriculture is that crop responses to inorganic fertilizer application derived 
+from experimental studies are often substantially greater than those from observational studies (e.g., farm surveys and administrative data). 
+The divergence between experimental and observational crop responses reported in the literature, coupled with the 
+recent debates on the relative costs and benefits of the expensive farm input subsidy programs in Africa, have raised the 
+importance of reconciling these estimates. This essay argues that progress on closing the gaps has been impeded by focusing only on 
+mean crop response differences while ignoring the enormous uncertainty and heterogeneity arising from variations in soil types, 
+environmental conditions, and management practices. We show in this essay that a novel way of dealing with different crop response 
+function estimates is to use a Bayesian approach that combines information from both experimental and observational data to model 
+uncertainty and heterogeneity in crop yield responses. Our Bayesian approach has the advantage over conventional approaches to 
+assessing (spatially variable) yield responses in that it addresses the potential concern that the experimental process tends to 
+overstate observational crop response while observational methods tend to be muddled with behavioral (or crop management) factors. 
+Using nationally representative experimental, survey, and administrative datasets from Malawi, we find that: (1) crop responses to 
+inorganic fertilizer use are uniformly low in observational data, (2) there are large heterogeneities in yield responses across space, 
+and (3) ignoring parameter uncertainty and spatial heterogeneity in crop responses can lead to questionable policy prescriptions. 
 
-3. Estimating inter-district food flows in Malawi: Application of a Malawi Agricultural Sector Model.
-`Presentation
-<https://github.com/MaxwellMkondiwa/Research/blob/master/EstimatingFoodFlowsPaper_FoodGroupPresentation.pdf>`_. 
+3. Characteristics space analysis of agricultural technology adoption 
+`Dissertation Chapter 3
+<https://github.com/MaxwellMkondiwa/Research/blob/master/MkondiwaPhDDissertation26thJune2019.pdf>`_. 
 
-This article develops a food sector spatially explicit mathematical programming model for Malawi 
-to estimate inter-district food flows and how transport cost variations affect these flows. 
-Inter-district trade data are not collected and thus not available in most sub-Saharan African 
-countries and many parts of world, yet such data would present opportunities for smarter and well 
-targeted development policies that allow for spillovers of impacts. We propose an interpretation 
-for the food sector model that allows a natural estimation of inter-district trade in data sparse 
-environments-where there are no district-district trade flows data and thus intra-national gravity 
-trade models are impossible to estimate. The interpretation is along the lines of a modified von Thünen “arrows” 
-theory in which transport costs determine the quantities and types of inputs or outputs that flow across the 
-different “separated” but not “isolated” districts. The calibration results for the baseline model show 
-that 16% of produced quantities of maize flow across districts as compared to more than 80% for rice, beans and groundnuts, 
-and 0% for cassava and potatoes. A simulation experiment of varying unit transport costs for both inputs and products 
-shows that reduction in per unit transport costs nonlinearly increases the share of production that is traded though 
-differentially across crops.
+There are always at least two sides to every story and an economic story of the adoption of agricultural technologies 
+throughout sub-Saharan Africa (SSA) is no exception. One familiar story highlights the “acceptance problem,” namely that 
+fundamental constraints in remoteness, weak markets, inappropriate policies, low education, cultural factors and many other 
+related constraints are key drivers to the low rates of technology adoption that prevail in many parts of SSA. The other story 
+focuses on the “availability problem,” which maintains that many newly available technologies fail to provide any relative 
+advantage in terms of their performance related attributes compared with the other (often status quo) alternatives. 
+This essay proposes a pure characteristics space analysis for both the acceptance and availability problems. 
+We illustrate this model using an application of the adoption of maize varieties in Malawi, a rapidly changing differentiated input market. 
+We find that farmers are willing to pay more for complex traits like drought tolerance and flint texture than yield differentials per se. 
+Our results (and the analytical approach we develop) have direct implications for maize breeding programs in Malawi.
 
-4. `Is wealth found in the soil or brain? Investing in farm people in Malawi
+4. Estimating inter-district food flows in Malawi: Application of a Malawi Agricultural Sector Model.
+`Dissertation Chapter 4
+<https://github.com/MaxwellMkondiwa/Research/blob/master/MkondiwaPhDDissertation26thJune2019.pdf>`_. 
+
+This essay develops a spatially-explicit, mathematical-programming model for the Malawian food sector to calibrate inter-district 
+food flows and to assess how transport cost variations affect these flows. Data on inter-district commodity trade flows 
+are typically not collected and are thus unavailable for most sub-Saharan African (SSA) countries and for many parts of world. 
+However, access to such data would present opportunities for smarter and better targeted development policies that allow for 
+the spatial spillover of interventions targeted to a specific locale. The food sector modeling approach we develop and implement 
+allows for a natural estimation of inter-district trade flows in data sparse environments where the lack of such data preclude 
+estimation of intra-national gravity trade models. Our modeling method is consistent with a modified von Thünen “arrows” approach 
+in which transport costs determine the quantities and types of inputs or outputs that flow across (spatially) “separated” but not “isolated” districts. 
+The calibration results for our baseline model indicate that about 7% of Malawian maize production flows among districts as 
+compared with more than 40% for rice, beans and groundnuts, and 0% for cassava and potatoes. A simulation experiment of varying unit 
+transport costs shows that reductions in per unit transport costs nonlinearly increase the share of production that is traded inter-regionally, 
+although the traded shares vary among the crops included in our model. 
+
+5. `Is wealth found in the soil or brain? Investing in farm people in Malawi
 <https://ageconsearch.umn.edu/record/275914/files/2483.pdf>`_. Presented at the 30th Triannual International Conference for 
 Agricultural Economists (ICAE 2018) in Vancouver, Canada, 28th-31st July 2018. 
 
@@ -132,7 +148,7 @@ two period nationally representative panel survey data in Malawi and rely on the
 spatial variation in access to schooling to identify effects of schooling on agricultural incomes. In addition, 
 I use recent econometric methods to correct for selection into income activities within a panel data and instrumental variables estimation framework. I find annual agricultural returns to one additional year of schooling in Malawi that range from 3% to 7%. 
 
-5. Games of strategy in culture and economics research.
+6. Games of strategy in culture and economics research.
 `Preliminary version
 <https://github.com/MaxwellMkondiwa/Research/blob/master/Games%20of%20strategy%20in%20culture%20and%20economics%20research_working%20paper.pdf>`_.
 
@@ -169,7 +185,5 @@ Work in progress
 8. What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
 Frikkie Liebenberg, Ian Luby, Senait Senay, Carlo Azzarri and Terry Hurley).
 
-9. Characteristics space analysis of agricultural technology adoption 
-`Slides
-<https://github.com/MaxwellMkondiwa/Research/blob/master/XristicsSpaceFoodGroupPresentation_25thSept.pdf>`_.  
+ 
 
