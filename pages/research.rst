@@ -45,7 +45,7 @@ overestimates the technological proximity across countries as compared to the pr
 Aitchison measure.
 
 3) `Poverty-Lack of Access to Adequate Safe Water Nexus: Evidence from Rural Malawi
-<https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8268.12048>`_. African Development Review ,2013, 25(4): 537-550.
+<https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8268.12048>`_. (with Charles Jumbe and Kenneth Wiyo). African Development Review ,2013, 25(4): 537-550.
 
 This paper investigates the relationship between poverty and lack ofaccess to 
 adequate safe water in rural Malawi.Data used in the analysis was collected 
@@ -58,7 +58,7 @@ interventions are therefore needed to address both challenges ofpoverty and
 poor access to adequate safe water in rural Malawi.
 
 4) `Comparative analysis of biofuels policy development in Sub-Saharan Africa: The place of private and public sectors
-<https://www.sciencedirect.com/science/article/pii/S0960148112004491>`_. Renewable Energy ,2013, 50: 614-620.
+<https://www.sciencedirect.com/science/article/pii/S0960148112004491>`_. (with Charles Jumbe). Renewable Energy ,2013, 50: 614-620.
 
 Considering that biofuels are considered as a catalyst for stimulating rural economic development, 
 a number of countries in Sub-Saharan Africa (SSA) have developed policies to guide the development 
