@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1563284760.6072688
+_modified_time = 1571296227.506563
 _enable_loop = True
 _template_filename = 'c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/bootstrap4/templates/post.tmpl'
 _template_uri = 'post.tmpl'
@@ -20,20 +20,20 @@ def _mako_get_namespace(context, name):
         _mako_generate_namespaces(context)
         return context.namespaces[(__name__, name)]
 def _mako_generate_namespaces(context):
-    ns = runtime.TemplateNamespace('comments', context._clean_inheritance_tokens(), templateuri='comments_helper.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'comments')] = ns
+    ns = runtime.TemplateNamespace('ui', context._clean_inheritance_tokens(), templateuri='ui_helper.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'ui')] = ns
 
     ns = runtime.TemplateNamespace('helper', context._clean_inheritance_tokens(), templateuri='post_helper.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'helper')] = ns
 
-    ns = runtime.TemplateNamespace('pheader', context._clean_inheritance_tokens(), templateuri='post_header.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'pheader')] = ns
-
     ns = runtime.TemplateNamespace('math', context._clean_inheritance_tokens(), templateuri='math_helper.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'math')] = ns
 
-    ns = runtime.TemplateNamespace('ui', context._clean_inheritance_tokens(), templateuri='ui_helper.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'ui')] = ns
+    ns = runtime.TemplateNamespace('comments', context._clean_inheritance_tokens(), templateuri='comments_helper.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'comments')] = ns
+
+    ns = runtime.TemplateNamespace('pheader', context._clean_inheritance_tokens(), templateuri='post_header.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'pheader')] = ns
 
 def _mako_inherit(template, context):
     _mako_generate_namespaces(context)
@@ -42,23 +42,23 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        smartjoin = context.get('smartjoin', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        comments = _mako_get_namespace(context, 'comments')
-        show_sourcelink = context.get('show_sourcelink', UNDEFINED)
-        ui = _mako_get_namespace(context, 'ui')
-        pheader = _mako_get_namespace(context, 'pheader')
-        math = _mako_get_namespace(context, 'math')
         helper = _mako_get_namespace(context, 'helper')
-        parent = context.get('parent', UNDEFINED)
-        post = context.get('post', UNDEFINED)
-        def extra_head():
-            return render_extra_head(context._locals(__M_locals))
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         def sourcelink():
             return render_sourcelink(context._locals(__M_locals))
+        ui = _mako_get_namespace(context, 'ui')
+        show_sourcelink = context.get('show_sourcelink', UNDEFINED)
+        post = context.get('post', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
+        comments = _mako_get_namespace(context, 'comments')
+        smartjoin = context.get('smartjoin', UNDEFINED)
+        parent = context.get('parent', UNDEFINED)
+        def extra_head():
+            return render_extra_head(context._locals(__M_locals))
+        pheader = _mako_get_namespace(context, 'pheader')
+        messages = context.get('messages', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -89,15 +89,15 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        messages = context.get('messages', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         def content():
             return render_content(context)
-        comments = _mako_get_namespace(context, 'comments')
-        pheader = _mako_get_namespace(context, 'pheader')
-        math = _mako_get_namespace(context, 'math')
         helper = _mako_get_namespace(context, 'helper')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         post = context.get('post', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
+        math = _mako_get_namespace(context, 'math')
+        pheader = _mako_get_namespace(context, 'pheader')
+        messages = context.get('messages', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<article class="post-')
         __M_writer(str(post.meta('type')))
@@ -129,13 +129,13 @@ def render_content(context,**pageargs):
 def render_extra_head(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        smartjoin = context.get('smartjoin', UNDEFINED)
-        math = _mako_get_namespace(context, 'math')
         helper = _mako_get_namespace(context, 'helper')
+        smartjoin = context.get('smartjoin', UNDEFINED)
         parent = context.get('parent', UNDEFINED)
-        post = context.get('post', UNDEFINED)
         def extra_head():
             return render_extra_head(context)
+        post = context.get('post', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(parent.extra_head()))
@@ -178,10 +178,10 @@ def render_extra_head(context,**pageargs):
 def render_sourcelink(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        show_sourcelink = context.get('show_sourcelink', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         def sourcelink():
             return render_sourcelink(context)
-        post = context.get('post', UNDEFINED)
-        show_sourcelink = context.get('show_sourcelink', UNDEFINED)
         ui = _mako_get_namespace(context, 'ui')
         __M_writer = context.writer()
         __M_writer('\n')
@@ -196,6 +196,6 @@ def render_sourcelink(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/bootstrap4/templates/post.tmpl", "uri": "post.tmpl", "source_encoding": "utf-8", "line_map": {"129": 9, "172": 27, "151": 16, "140": 9, "141": 10, "142": 10, "143": 11, "144": 12, "145": 12, "146": 12, "147": 14, "148": 14, "149": 14, "150": 15, "23": 4, "152": 16, "153": 16, "26": 2, "155": 16, "156": 18, "29": 3, "158": 19, "159": 19, "32": 5, "161": 19, "162": 21, "35": 6, "164": 24, "163": 22, "166": 24, "167": 25, "168": 25, "41": 0, "170": 26, "171": 27, "154": 16, "157": 19, "178": 53, "187": 53, "188": 54, "189": 55, "169": 26, "63": 2, "64": 3, "65": 4, "66": 5, "67": 6, "68": 7, "197": 191, "73": 28, "160": 19, "78": 51, "190": 55, "83": 57, "191": 55, "89": 30, "165": 24, "102": 30, "103": 31, "104": 31, "105": 32, "106": 32, "107": 34, "108": 34, "109": 38, "110": 38, "111": 39, "112": 39, "113": 42, "114": 43, "115": 44, "116": 44, "117": 45, "118": 45, "119": 48, "120": 48, "121": 48, "122": 50, "123": 50}}
+{"line_map": {"129": 9, "172": 27, "151": 16, "140": 9, "141": 10, "142": 10, "143": 11, "144": 12, "145": 12, "146": 12, "147": 14, "148": 14, "149": 14, "150": 15, "23": 6, "152": 16, "153": 16, "26": 2, "155": 16, "156": 18, "29": 5, "158": 19, "159": 19, "32": 4, "161": 19, "162": 21, "35": 3, "164": 24, "163": 22, "166": 24, "167": 25, "168": 25, "41": 0, "170": 26, "171": 27, "154": 16, "157": 19, "178": 53, "187": 53, "188": 54, "189": 55, "169": 26, "63": 2, "64": 3, "65": 4, "66": 5, "67": 6, "68": 7, "197": 191, "73": 28, "160": 19, "78": 51, "190": 55, "83": 57, "191": 55, "89": 30, "165": 24, "102": 30, "103": 31, "104": 31, "105": 32, "106": 32, "107": 34, "108": 34, "109": 38, "110": 38, "111": 39, "112": 39, "113": 42, "114": 43, "115": 44, "116": 44, "117": 45, "118": 45, "119": 48, "120": 48, "121": 48, "122": 50, "123": 50}, "uri": "post.tmpl", "source_encoding": "utf-8", "filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/bootstrap4/templates/post.tmpl"}
 __M_END_METADATA
 """
