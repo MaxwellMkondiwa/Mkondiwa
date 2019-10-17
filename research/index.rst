@@ -10,7 +10,22 @@
 Publications
 ============
 
-1) `Graphical analysis of agricultural spillover potential
+1) Games of strategy in culture and economics research.Accepted:Journal of Economic Methodology. 
+`Preliminary version
+<https://github.com/MaxwellMkondiwa/Research/blob/master/Games%20of%20strategy%20in%20culture%20and%20economics%20research_working%20paper.pdf>`_.
+
+Games are meant to be fun, yet economists have successfully developed games that are less fun and less understood by 
+participants especially in developing countries. This paper surveys failures in risk attitudes elicitation in 
+sub-Saharan Africa (SSA) and questions the use of complex research tools such as multiple price list (MPL) approaches 
+and behavioral games that rural participants have never played before. The failures can be avoided by using innovative 
+research tools that ingest local activities like indigenous board games that the rural people have played for generations 
+because these games are entertaining and closely related to the economic decisions they make. In the case of Malawi and other 
+African countries, bawo-an indigenous board game- is the most common of these games and relates to every day economic decision making. 
+I provide a description of the game and suggest a research agenda that applies the game in economics research-for risk attitudes elicitation, 
+improving math skills of children and behavioral game theory.
+
+
+2) `Graphical analysis of agricultural spillover potential
 <https://www.tandfonline.com/eprint/nsA7X2cgrAGtsX5dvzKu/full>`_. Economics of 
 Innovation and New Technology,2017, 17(6): 533-553. 
 
@@ -29,7 +44,7 @@ development spillover potential for Southern African countries show that the Jaf
 overestimates the technological proximity across countries as compared to the proposed 
 Aitchison measure.
 
-2) `Poverty-Lack of Access to Adequate Safe Water Nexus: Evidence from Rural Malawi
+3) `Poverty-Lack of Access to Adequate Safe Water Nexus: Evidence from Rural Malawi
 <https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8268.12048>`_. African Development Review ,2013, 25(4): 537-550.
 
 This paper investigates the relationship between poverty and lack ofaccess to 
@@ -42,7 +57,7 @@ to safe and adequate water. Integrated Rural Water Resources Management (IRWM)
 interventions are therefore needed to address both challenges ofpoverty and 
 poor access to adequate safe water in rural Malawi.
 
-3) `Comparative analysis of biofuels policy development in Sub-Saharan Africa: The place of private and public sectors
+4) `Comparative analysis of biofuels policy development in Sub-Saharan Africa: The place of private and public sectors
 <https://www.sciencedirect.com/science/article/pii/S0960148112004491>`_. Renewable Energy ,2013, 50: 614-620.
 
 Considering that biofuels are considered as a catalyst for stimulating rural economic development, 
@@ -148,19 +163,7 @@ two period nationally representative panel survey data in Malawi and rely on the
 spatial variation in access to schooling to identify effects of schooling on agricultural incomes. In addition, 
 I use recent econometric methods to correct for selection into income activities within a panel data and instrumental variables estimation framework. I find annual agricultural returns to one additional year of schooling in Malawi that range from 3% to 7%. 
 
-6. Games of strategy in culture and economics research.
-`Preliminary version
-<https://github.com/MaxwellMkondiwa/Research/blob/master/Games%20of%20strategy%20in%20culture%20and%20economics%20research_working%20paper.pdf>`_.
 
-Games are meant to be fun, yet economists have successfully developed games that are less fun and less understood by 
-participants especially in developing countries. This paper surveys failures in risk attitudes elicitation in 
-sub-Saharan Africa (SSA) and questions the use of complex research tools such as multiple price list (MPL) approaches 
-and behavioral games that rural participants have never played before. The failures can be avoided by using innovative 
-research tools that ingest local activities like indigenous board games that the rural people have played for generations 
-because these games are entertaining and closely related to the economic decisions they make. In the case of Malawi and other 
-African countries, bawo-an indigenous board game- is the most common of these games and relates to every day economic decision making. 
-I provide a description of the game and suggest a research agenda that applies the game in economics research-for risk attitudes elicitation, 
-improving math skills of children and behavioral game theory.
 
 
 Work in progress
