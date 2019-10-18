@@ -10,7 +10,7 @@
 Publications
 ============
 
-1)  `Games of strategy in culture and economics research.Accepted:Journal of Economic Methodology
+1)  `Games of strategy in culture and economics research
 <https://www.tandfonline.com/eprint/X3EWQS6NNKWFHRZ7HDIP/full?target=10.1080/1350178X.2019.1680858>`_. Journal of Economic Methodology, 2019
 
 Games are meant to be fun, yet economists have successfully developed games that are less 
@@ -19,11 +19,11 @@ This paper surveys failures in risk attitudes elicitation in sub-Saharan Africa 
 questions the use of complex research tools such as multiple price list (MPL) approaches 
 and behavioral games that rural participants have never played before. The failures can be 
 avoided by using innovative research tools that ingest local activities like indigenous board
- games that the rural people have played for generations because these games are entertaining 
- and closely related to the economic decisions they make. I provide a description of a variant 
- of the indigenous strategic games of Africa- Mancala- and suggest a research agenda that applies 
- the game in economics research—for risk attitudes elicitation, improving math skills of children 
- and behavioral game theory.
+games that the rural people have played for generations because these games are entertaining 
+and closely related to the economic decisions they make. I provide a description of a variant 
+of the indigenous strategic games of Africa- Mancala- and suggest a research agenda that applies 
+the game in economics research—for risk attitudes elicitation, improving math skills of children 
+and behavioral game theory.
 
 
 2) `Graphical analysis of agricultural spillover potential
