@@ -11,7 +11,9 @@ Publications
 ============
 
 1)  `Games of strategy in culture and economics research
-<https://www.tandfonline.com/eprint/X3EWQS6NNKWFHRZ7HDIP/full?target=10.1080/1350178X.2019.1680858>`_. Journal of Economic Methodology, 2019
+<https://www.tandfonline.com/eprint/X3EWQS6NNKWFHRZ7HDIP/full?target=10.1080/1350178X.2019.1680858>`_. Journal of Economic Methodology, 2019. 
+`Ungated version 
+<https://www.researchgate.net/publication/336652616_Games_of_strategy_in_culture_and_economics_research>`_.
 
 Games are meant to be fun, yet economists have successfully developed games that are less 
 fun and less understood by participants especially in developing countries. 
