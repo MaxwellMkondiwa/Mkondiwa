@@ -180,7 +180,7 @@ Work in progress
 `here
 <https://www.conftool.com/landandpoverty2018/index.php?page=browseSessions&print=head&doprint=yes&form_session=448&presentations=show>`_.
 
-4. Towards a theory of spatial organization of agriculture and land rights (with Ali Joglekar)
+4. Towards a theory of spatial organization of agriculture and land rights
 
 5. Incidence and productivity effects of abusus land rights: Evidence from Malawi
 
