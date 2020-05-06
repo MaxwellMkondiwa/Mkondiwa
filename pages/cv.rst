@@ -8,4 +8,4 @@
 .. type: text
 
 You can find my CV  `here
-<https://github.com/MaxwellMkondiwa/CV/blob/master/MaxwellMkondiwaCVJuly2019.pdf>`_.
+<https://github.com/MaxwellMkondiwa/CV/blob/master/MaxwellMkondiwaCVJan2020.pdf>`_.
