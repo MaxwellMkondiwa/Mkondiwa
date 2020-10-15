@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1602793555.2388465
+_modified_time = 1602793729.1280198
 _enable_loop = True
 _template_filename = 'c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/math_helper.tmpl'
 _template_uri = 'math_helper.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['math_scripts', 'math_scripts_ifposts', 'math_scripts_ifpost', 'math_styles_ifposts', 'math_styles_ifpost', 'math_styles']
+_exports = ['math_styles_ifpost', 'math_scripts', 'math_scripts_ifposts', 'math_styles_ifposts', 'math_scripts_ifpost', 'math_styles']
 
 
 def render_body(context,**pageargs):
@@ -29,12 +29,28 @@ def render_body(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
+def render_math_styles_ifpost(context,post):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        def math_styles():
+            return render_math_styles(context)
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if post.has_math:
+            __M_writer('        ')
+            __M_writer(str(math_styles()))
+            __M_writer('\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
 def render_math_scripts(context):
     __M_caller = context.caller_stack._push_frame()
     try:
         use_katex = context.get('use_katex', UNDEFINED)
-        katex_auto_render = context.get('katex_auto_render', UNDEFINED)
         mathjax_config = context.get('mathjax_config', UNDEFINED)
+        katex_auto_render = context.get('katex_auto_render', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if use_katex:
@@ -61,28 +77,12 @@ def render_math_scripts(context):
 def render_math_scripts_ifposts(context,posts):
     __M_caller = context.caller_stack._push_frame()
     try:
+        any = context.get('any', UNDEFINED)
         def math_scripts():
             return render_math_scripts(context)
-        any = context.get('any', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if any(post.has_math for post in posts):
-            __M_writer('        ')
-            __M_writer(str(math_scripts()))
-            __M_writer('\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
-def render_math_scripts_ifpost(context,post):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        def math_scripts():
-            return render_math_scripts(context)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if post.has_math:
             __M_writer('        ')
             __M_writer(str(math_scripts()))
             __M_writer('\n')
@@ -108,16 +108,16 @@ def render_math_styles_ifposts(context,posts):
         context.caller_stack._pop_frame()
 
 
-def render_math_styles_ifpost(context,post):
+def render_math_scripts_ifpost(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        def math_styles():
-            return render_math_styles(context)
+        def math_scripts():
+            return render_math_scripts(context)
         __M_writer = context.writer()
         __M_writer('\n')
         if post.has_math:
             __M_writer('        ')
-            __M_writer(str(math_styles()))
+            __M_writer(str(math_scripts()))
             __M_writer('\n')
         return ''
     finally:
@@ -139,6 +139,6 @@ def render_math_styles(context):
 
 """
 __M_BEGIN_METADATA
-{"filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/math_helper.tmpl", "source_encoding": "utf-8", "line_map": {"132": 41, "133": 42, "134": 43, "140": 134, "16": 0, "21": 39, "22": 45, "23": 51, "24": 57, "25": 63, "26": 69, "32": 2, "39": 2, "40": 3, "41": 4, "42": 6, "43": 7, "44": 10, "45": 10, "46": 14, "47": 15, "48": 28, "49": 30, "50": 31, "51": 32, "52": 32, "53": 32, "54": 33, "55": 34, "61": 53, "68": 53, "69": 54, "70": 55, "71": 55, "72": 55, "78": 47, "84": 47, "85": 48, "86": 49, "87": 49, "88": 49, "94": 65, "101": 65, "102": 66, "103": 67, "104": 67, "105": 67, "111": 59, "117": 59, "118": 60, "119": 61, "120": 61, "121": 61, "127": 41}, "uri": "math_helper.tmpl"}
+{"source_encoding": "utf-8", "uri": "math_helper.tmpl", "line_map": {"132": 41, "133": 42, "134": 43, "140": 134, "16": 0, "21": 39, "22": 45, "23": 51, "24": 57, "25": 63, "26": 69, "32": 59, "38": 59, "39": 60, "40": 61, "41": 61, "42": 61, "48": 2, "55": 2, "56": 3, "57": 4, "58": 6, "59": 7, "60": 10, "61": 10, "62": 14, "63": 15, "64": 28, "65": 30, "66": 31, "67": 32, "68": 32, "69": 32, "70": 33, "71": 34, "77": 53, "84": 53, "85": 54, "86": 55, "87": 55, "88": 55, "94": 65, "101": 65, "102": 66, "103": 67, "104": 67, "105": 67, "111": 47, "117": 47, "118": 48, "119": 49, "120": 49, "121": 49, "127": 41}, "filename": "c:/users/mkond/anaconda3/lib/site-packages/nikola/data/themes/base/templates/math_helper.tmpl"}
 __M_END_METADATA
 """
