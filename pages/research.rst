@@ -34,14 +34,14 @@ This study examines the correlational relationship between the historical playin
 (also called mancala) and the socio-economic complexity of African ethnic groups as well as the incidence of 
 entrepreneurial pursuits. Anthropology literature suggests that these games may be associated with socio-economic 
 complexity of the ethnic groups—the so-called games in culture hypothesis. I revisit this hypothesis with better
- data and motivated by anecdotal evidence, introduce a contemporary hypothesis, origins of entrepreneurship 
- hypothesis—that descendants of societies that played complex mancala games are more likely to be engaged 
- in non-farm self-employment today. I compile the first comprehensive database of mancala games in Africa
- matched to ancestral characteristics data, and for 18 African countries, to the Afrobarometer survey data. 
- Using historical and contemporary data, I do not find evidence for either hypothesis. Despite the null results, 
- I explore how related hypotheses and studies can build on the comprehensive mancala database.
+data and motivated by anecdotal evidence, introduce a contemporary hypothesis, origins of entrepreneurship 
+hypothesis—that descendants of societies that played complex mancala games are more likely to be engaged 
+in non-farm self-employment today. I compile the first comprehensive database of mancala games in Africa
+matched to ancestral characteristics data, and for 18 African countries, to the Afrobarometer survey data. 
+Using historical and contemporary data, I do not find evidence for either hypothesis. Despite the null results, 
+I explore how related hypotheses and studies can build on the comprehensive mancala database.
 
-2) `Graphical analysis of agricultural spillover potential
+3) `Graphical analysis of agricultural spillover potential
 <https://www.tandfonline.com/eprint/nsA7X2cgrAGtsX5dvzKu/full>`_. Economics of 
 Innovation and New Technology,2017, 17(6): 533-553. 
 
@@ -60,7 +60,7 @@ development spillover potential for Southern African countries show that the Jaf
 overestimates the technological proximity across countries as compared to the proposed 
 Aitchison measure.
 
-3) `Poverty-Lack of Access to Adequate Safe Water Nexus: Evidence from Rural Malawi
+4) `Poverty-Lack of Access to Adequate Safe Water Nexus: Evidence from Rural Malawi
 <https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8268.12048>`_. (with Charles Jumbe and Kenneth Wiyo). African Development Review ,2013, 25(4): 537-550.
 
 This paper investigates the relationship between poverty and lack ofaccess to 
@@ -73,7 +73,7 @@ to safe and adequate water. Integrated Rural Water Resources Management (IRWM)
 interventions are therefore needed to address both challenges ofpoverty and 
 poor access to adequate safe water in rural Malawi.
 
-4) `Comparative analysis of biofuels policy development in Sub-Saharan Africa: The place of private and public sectors
+5) `Comparative analysis of biofuels policy development in Sub-Saharan Africa: The place of private and public sectors
 <https://www.sciencedirect.com/science/article/pii/S0960148112004491>`_. (with Charles Jumbe). Renewable Energy ,2013, 50: 614-620.
 
 Considering that biofuels are considered as a catalyst for stimulating rural economic development, 
@@ -197,7 +197,8 @@ Work in progress
 
 5. Incidence and productivity effects of abusus land rights: Evidence from Malawi
 
-6. Strategic games in culture and origins of entrepreneurship in Africa. Pre-analysis plan available upon request.  
+6. Behavioral Game Models for Games of Strategy in Culture
+ 
 
 7. Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
 
