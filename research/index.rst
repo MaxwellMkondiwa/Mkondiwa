@@ -114,7 +114,7 @@ different scales when making input recommendations.
 
 2. Closing the gaps in experimental-observational crop responses: A Bayesian approach.
 `Dissertation Chapter 2
-<https://github.com/MaxwellMkondiwa/Research/blob/master/MkondiwaPhDDissertation26thJune2019.pdf>`_.
+<https://conservancy.umn.edu/handle/11299/206645>`_.
 
 A stylized fact of African agriculture is that crop responses to inorganic fertilizer application derived 
 from experimental studies are often substantially greater than those from observational studies (e.g., farm surveys and administrative data). 
@@ -133,7 +133,7 @@ and (3) ignoring parameter uncertainty and spatial heterogeneity in crop respons
 
 3. Characteristics space analysis of agricultural technology adoption 
 `Dissertation Chapter 3
-<https://github.com/MaxwellMkondiwa/Research/blob/master/MkondiwaPhDDissertation26thJune2019.pdf>`_. 
+<https://conservancy.umn.edu/handle/11299/206645>`_. 
 
 There are always at least two sides to every story and an economic story of the adoption of agricultural technologies 
 throughout sub-Saharan Africa (SSA) is no exception. One familiar story highlights the “acceptance problem,” namely that 
@@ -148,7 +148,7 @@ Our results (and the analytical approach we develop) have direct implications fo
 
 4. Estimating inter-district food flows in Malawi: Application of a Malawi Agricultural Sector Model.
 `Dissertation Chapter 4
-<https://github.com/MaxwellMkondiwa/Research/blob/master/MkondiwaPhDDissertation26thJune2019.pdf>`_. 
+<https://conservancy.umn.edu/handle/11299/206645>`_. 
 
 This essay develops a spatially-explicit, mathematical-programming model for the Malawian food sector to calibrate inter-district 
 food flows and to assess how transport cost variations affect these flows. Data on inter-district commodity trade flows 
