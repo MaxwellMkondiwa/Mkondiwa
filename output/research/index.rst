@@ -177,7 +177,14 @@ two period nationally representative panel survey data in Malawi and rely on the
 spatial variation in access to schooling to identify effects of schooling on agricultural incomes. In addition, 
 I use recent econometric methods to correct for selection into income activities within a panel data and instrumental variables estimation framework. I find annual agricultural returns to one additional year of schooling in Malawi that range from 3% to 7%. 
 
+6. `Behavioral game models for real-world games
+<https://github.com/MaxwellMkondiwa/CV/blob/master/Behavioral%20game%20models%20for%20real-world%20games%20(April%2020%2C2021).pdf>`_. Working paper. 
 
+Behavioral game theory has mostly relied on lab experiments using “simple games” developed by economists like beauty contest and centipede games. 
+This is problematic because such games are complex for participants due to unfamiliarity and unrelated to real-world decision making. 
+In this paper, I suggest a rethinking of the ideology and show that it is possible to use real-world games in behavioral game experiments.  
+Using mancala heuristics—sowing games commonly played in Africa, I show that standard behavioral game theory models (level k and cognitive hierarchy) 
+are inadequate to explain the more realistic multi-dimensional reasoning processes required in mancala. 
 
 
 Work in progress
@@ -195,11 +202,9 @@ Work in progress
 
 5. Incidence and productivity effects of abusus land rights: Evidence from Malawi
 
-6. Behavioral Game Models for Games of Strategy in Culture
+6. Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
 
-7. Climate geoengineering effects on global economic production (with Jay Coggins, Ben Kravitz, Ian Luby, Ibrahim Keita and Sinafikeh Germesa).
-
-8. What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
+7. What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
 Frikkie Liebenberg, Ian Luby, Senait Senay, Carlo Azzarri and Terry Hurley).
 
  
