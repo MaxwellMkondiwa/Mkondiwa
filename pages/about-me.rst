@@ -18,5 +18,5 @@ I obtained a PhD in Applied Economics at University of Minnesota in July 2019, M
 Jomokenyatta University of Agriculture and Technology (JKUAT), Kenya in 2012 and BSc in Agricultural Economics from Bunda College, Malawi in 2009.
 
 I love playing soccer (alot!), watching soccer (alot as well) and reading philosophical novels 
-(my favourite novelists are Tolstoy, George Elliot, Toni Morrisoni and Paulo Coelho).
+(my favourite novelists are Tolstoy, George Eliot, Toni Morrison and Paulo Coelho).
 
