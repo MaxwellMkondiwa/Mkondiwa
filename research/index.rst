@@ -190,7 +190,7 @@ are inadequate to explain the more realistic multi-dimensional reasoning process
 Work in progress
 =================
 
-1. Meta Review of the “Conventional” Crop Varietal Use Evidence for Africa (with Phil Pardey). Presented at the SPIA-Gates Foundation Meeting, Washington
+1. Meta Review of the “Conventional” Crop Varietal Use Evidence for Africa (with Phil Pardey). Presented at the SPIA-Gates Foundation Meetin  g, Washington
 
 2. A Cautionary Political Economy Tale of Large Farm Registration in Malawi
 
