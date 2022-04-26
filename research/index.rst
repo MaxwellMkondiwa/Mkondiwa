@@ -207,7 +207,7 @@ Work in progress
 7. What do we know about (procured) input use in African agriculture (with Phil Pardey, Alison Joglekar,Connie Chan-Kang,
 Frikkie Liebenberg, Ian Luby, Senait Senay, Carlo Azzarri and Terry Hurley).
 
-8. Sufficient Statistics, Exact Hat Algebra, and Differential Approaches in Economics
+
 
  
 
