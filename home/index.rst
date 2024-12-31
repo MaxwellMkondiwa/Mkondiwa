@@ -22,6 +22,6 @@ My main areas of research interest are production and marketing economics.
 
 You will find on this website links to my CV, research papers and teaching experience. 
 
-You can contact me by e-mail: mkond001@umn.edu, maxwellmkondiwa@gmail.com or phone: +265 99 416 3292 (Malawi) and  +1 651 366 2635 (US) 
+You can contact me by e-mail: maxwellmkondiwa@gmail.com
 
 
